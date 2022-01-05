@@ -1,4 +1,4 @@
-# CART 263 - Creative Computation II - Winter 2021
+# CART 263 - Creative Computation II - Winter 2022
 
 ### Instructor
 
