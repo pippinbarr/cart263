@@ -1,3 +1,5 @@
+#### [Home](../README.md) | [Schedule](../course-information/schedule.md) | [Course Outline](../course-information/outline.md) | [Examples](examples) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
+
 # Examples
 
 ## Contents

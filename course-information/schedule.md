@@ -1,10 +1,10 @@
-#### [Home](../README.md) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Repository](https://www.github.com/pippinbarr/cart263)
+#### [Home](../README.md) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
 
 # Schedule
 
 #### Contents
 - [Templates](#templates) - template projects
-- [Guides](#guides) - high level guides
+- [Guides](../guides/) - high level guides
 - [Examples](../examples/) - full examples of code
 - [Projects](#projects) - project briefs and due dates
 
@@ -31,10 +31,6 @@
 
 - p5 Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/template-p5-project) [.zip](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
 - Plain JavaScript Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
-
-#### Guides
-- [Style Guide](../guides/style-guide.md)
-- [Git Cheatsheet](../guides/git-cheatsheet.md)
 
 #### Projects
 - [Project 1: A Night at the Movies](../projects/project1/README.md)
