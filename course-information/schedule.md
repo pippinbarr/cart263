@@ -67,6 +67,7 @@ Week of 10 January 2022
 * Time management (class scheduling, office hours)
 * Waiting list? Is anyone on it?
 * Software setup? Any problems?
+* Office hours? Office hour? Pippin's time
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
   * Homepage: [https://clab.concordia.ca/](https://clab.concordia.ca/)
   * Email: [computation.lab@concordia.ca](mailto:computation.lab@concordia.ca)
