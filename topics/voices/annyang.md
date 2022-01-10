@@ -248,7 +248,7 @@ function setup() {
   // Check if annyang is available
   if (annyang) {
     // Create commands
-    let command = {
+    let commands = {
       // If they say hello, say hi back!
       'hello': function() {
         alert(`Hi there!`);
@@ -275,7 +275,7 @@ function setup() {
   // Check if annyang is available
   if (annyang) {
     // Create commands
-    let command = {
+    let commands = {
       // If they say hello, say hi back by calling our sayHello() function!
       'hello': sayHello
     }
@@ -452,12 +452,12 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   if (annyang) {
-    let command = {
+    let commands = {
       // A command that listens for "my name is..." and the captures
       // whatever they say after that and sends it as an argument to setName()
       'My name is *name': setName
     }
-    annyang.addCommands(command);
+    annyang.addCommands(commands);
     annyang.start();
   }
 }
