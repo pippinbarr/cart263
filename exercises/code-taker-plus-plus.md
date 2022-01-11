@@ -1,4 +1,4 @@
-# Exercise: Code Taker++ {
+# Exercise 7: Code Taker++ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)

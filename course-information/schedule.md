@@ -112,7 +112,7 @@ Week of 17 January 2022
 - **Complete** [Activity: Where's Sausage Dog?](../activities/wheres-sausage-dog.md) (**Watch** [2.4. Activity: Where's Sausage Dog?](https://youtu.be/r9ZCFCd4mjE) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/p5js/wheres-sausage-dog), [Play](https://pippinbarr.github.io/cart263/examples/p5js/wheres-sausage-dog/))
 
 ### Exercise
-* **Complete** [Exercise: Where's Sausage Dog? New Game+](../exercises/wheres-sausage-dog-new-game-plus.md) (due the night of class)
+* **Complete** [Exercise 1: Where's Sausage Dog? New Game+](../exercises/wheres-sausage-dog-new-game-plus.md) (due the night of class)
 
 ### Examples
 - For various examples of JavaScript and p5, refer to the [CART253 Fall 2020 repository](https://www.github.com/pippinbarr/cart253-2020/).
@@ -127,7 +127,7 @@ Week of 17 January 2022
 
 ## Studio (in Discord studio channels after classroom period)
 * Instructor and TA available to help
-* Work on [Exercise: Where's Sausage Dog? New Game+](../exercises/wheres-sausage-dog-new-game-plus.md) (due the night of class)
+* Work on [Exercise 1: Where's Sausage Dog? New Game+](../exercises/wheres-sausage-dog-new-game-plus.md) (due the night of class)
 * Start work on next week's material
 
 ## Homework
@@ -167,7 +167,7 @@ Week of 24 January 2022
 * **Complete** [Activity: Slamina](../activities/slamina.md) (**Watch** [3.3. Activity: Slamina](https://youtu.be/RKhwJgtAlYE) video to see Pippin doing it, but be aware he **makes some impressive mistakes!** then fixes them, it's raw and truthful) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/voices/slamina), [Online](https://pippinbarr.github.io/cart263/examples/voices/slamina/))
 
 ### Exercise
-* **Complete** [Exercise: Slamina New Game+](../exercises/slamina-new-game-plus.md) (due the night of class)
+* **Complete** [Exercise 2: Slamina New Game+](../exercises/slamina-new-game-plus.md) (due the night of class)
 
 ## [Examples](../examples/#voices)
 Click through for examples of the topics covered in this section
@@ -181,7 +181,7 @@ Click through for examples of the topics covered in this section
 
 ## Studio (in Discord studio channels after classroom period)
 * Instructor and TA available to help
-* Work on [Exercise: Slamina New Game+](../exercises/slamina-new-game-plus.md) (due the night of class)
+* Work on [Exercise 2: Slamina New Game+](../exercises/slamina-new-game-plus.md) (due the night of class)
 * Work on [Project 1: A Night at the Movies](../projects/project1/README.md)
 * Start work on next week's material
 
@@ -221,7 +221,7 @@ Week of 31 January 2022
 * **Complete** [Activity: Spy Profile Generator](../activities/spy-profile-generator.md) (**Watch** [4.3. Activity: Spy Profile Generator](https://youtu.be/0HAZGpVUdRI) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/data/spy-profile-generator/), [Online](https://pippinbarr.github.io/cart263/examples/data/spy-profile-generator/))
 
 ### Exercise
-* **Complete** [Exercise: Spy Profile Generator++](../exercises/spy-profile-generator-plus-plus.md) (due the night of class)
+* **Complete** [Exercise 3: Spy Profile Generator++](../exercises/spy-profile-generator-plus-plus.md) (due the night of class)
 
 ## [Examples](../examples/#data)
 Click through for examples of the topics covered in this section
@@ -274,7 +274,7 @@ Week of 7 February 2022
 * **Complete** [Activity: Bubble Popper](../activities/bubble-popper.md) (**Watch** [5.4. Activity: Bubble Popper](https://youtu.be/zx0pNnoHp4Y) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/ai/bubble-popper/), [Online](https://pippinbarr.github.io/cart263/examples/ai/bubble-popper/))
 
 ### Exercise
-* **Complete** [Exercise: Bubble Popper++](../exercises/bubble-popper-plus-plus.md) (due the night of class)
+* **Complete** [Exercise 4: Bubble Popper++](../exercises/bubble-popper-plus-plus.md) (due the night of class)
 
 ## [Examples](../examples/#ai)
 Click through for examples of the topics covered in this section
@@ -376,7 +376,7 @@ Week of 21 February 2022
 * **Complete** [Activity: Haiku Generator](../activities/haiku-generator.md) (**Watch** [6.6. Activity: Haiku Generator](https://youtu.be/AiuTJMhJhKA) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/the-webpage/haiku-generator/), [Online](https://pippinbarr.github.io/cart263/examples/the-webpage/haiku-generator/))
 
 ### Exercise
-* **Complete** [Exercise: Haiku Generator++](../exercises/haiku-generator-plus-plus.md) (due the night of class)
+* **Complete** [Exercise 5: Haiku Generator++](../exercises/haiku-generator-plus-plus.md) (due the night of class)
 
 ## [Examples](../examples/#the-webpage)
 Click through for examples of the topics covered in this section
@@ -436,7 +436,7 @@ Week of 7 March 2022
 * **Complete** [Activity: Raving Redactionist](../activities/raving-redactionist.md) (**Watch** [7.5. Activity: Raving Redactionist](https://youtu.be/FAmrnLmfP3U) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/jquery/raving-redactionist/), [Online](https://pippinbarr.github.io/cart263/examples/jquery/raving-redactionist/))
 
 ### Exercise
-* **Complete** [Exercise: Raving Redactionist++](../exercises/raving-redactionist-plus-plus.md) (due the night of class)
+* **Complete** [Exercise 6: Raving Redactionist++](../exercises/raving-redactionist-plus-plus.md) (due the night of class)
 
 ## [Examples](../examples/#jquery)
 Click through for examples of the topics covered in this section
@@ -489,7 +489,7 @@ Week of 14 March 2022
 * **Complete** [Activity: Code Taker](../activities/code-taker.md) (**Watch** [8.5. Activity: Code Taker](https://youtu.be/aNMHZy5Z8i8) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/jquery-ui/code-taker/), [Online](https://pippinbarr.github.io/cart263/examples/jquery-ui/code-taker/))
 
 ### Exercise
-* **Complete** [Exercise: Code Taker++](../exercises/code-taker-plus-plus.md) (due the night of class)
+* **Complete** [Exercise 7: Code Taker++](../exercises/code-taker-plus-plus.md) (due the night of class)
 
 ## [Examples](../examples/#jquery-ui)
 Click through for examples of the topics covered in this section
@@ -543,7 +543,7 @@ Week of 21 March 2022
 * **Complete** [Activity: Desperately Seeking Sadness](../activities/desperately-seeking-sadness.md) (**Watch** [6. Activity: Desperately Seeking Sadness](https://youtu.be/AJaFQcQuXrw) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/game-engine/desperately-seeking-sadness/), [Online](https://pippinbarr.github.io/cart263/examples/game-engine/desperately-seeking-sadness/))
 
 ### Exercise
-* **Complete** [Exercise: Desperately Seeking Sadness++](../exercises/desperately-seeking-sadness-plus-plus.md) (due the night of class)
+* **Complete** [Exercise 8: Desperately Seeking Sadness++](../exercises/desperately-seeking-sadness-plus-plus.md) (due the night of class)
 
 ## [Examples](../examples/#game-engine)
 Click through for examples of the topics covered in this section

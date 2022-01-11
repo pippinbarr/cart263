@@ -1,4 +1,4 @@
-# Exercise: Raving Redactionist++ {
+# Exercise 6: Raving Redactionist++ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)

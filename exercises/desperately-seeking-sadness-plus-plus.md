@@ -1,4 +1,4 @@
-# Exercise: Desperately Seeking Sadness++ {
+# Exercise 8: Desperately Seeking Sadness++ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)

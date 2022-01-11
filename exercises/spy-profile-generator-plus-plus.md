@@ -1,4 +1,4 @@
-# Exercise: Spy Profile Generator++ {
+# Exercise 3: Spy Profile Generator++ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)

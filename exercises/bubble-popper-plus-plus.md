@@ -1,4 +1,4 @@
-# Exercise: Bubble Popper++ {
+# Exercise 4: Bubble Popper++ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)

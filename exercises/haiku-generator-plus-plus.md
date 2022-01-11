@@ -1,4 +1,4 @@
-# Exercise: Haiku Generator++ {
+# Exercise 5: Haiku Generator++ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)

@@ -1,4 +1,4 @@
-# Exercise: Slamina New Game+ {
+# Exercise 2: Slamina New Game+ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)

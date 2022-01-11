@@ -1,4 +1,4 @@
-# Exercise: Where's Sausage Dog? New Game+ {
+# Exercise 1: Where's Sausage Dog? New Game+ {
 
 #### Grade
 - 4% of final grade (see guidelines at bottom)
