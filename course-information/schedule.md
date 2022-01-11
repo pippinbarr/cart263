@@ -29,8 +29,8 @@
 
 #### Templates
 
-- p5 Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/template-p5-project) [.zip](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
-- Plain JavaScript Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
+- Template p5 Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/template-p5-project) [.zip](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
+- Template Plain JavaScript Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
 
 #### Projects
 - [Project 1: A Night at the Movies](../projects/project1/README.md)
@@ -92,6 +92,9 @@ Week of 17 January 2022
 - Remembering JavaScript fundamentals
 - Remembering p5.js
 
+## Template
+- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
+
 ## Before class
 
 ### Topics
@@ -140,6 +143,9 @@ Week of 24 January 2022
 ## Objectives
 - Making the computer talk with ResponsiveVoice
 - Making the computer listen with annyang!
+
+## Template
+- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
 
 ## Before class
 
@@ -194,6 +200,9 @@ Week of 31 January 2022
 - Playing with JSON data
 - Saving and loading data in the browser
 
+## Template
+- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
+
 ## Before class
 
 ### Topics
@@ -241,6 +250,9 @@ Week of 7 February 2022
 
 ## Objectives
 - Playing with ml5.js and Machine Learning
+
+## Template
+- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
 
 ## Before class
 
@@ -330,6 +342,9 @@ Week of 21 February 2022
 - Understanding HTML and CSS
 - Understanding the DOM (Document Object Model)
 
+## Template
+- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
+
 ## Before class
 
 ### Topics
@@ -398,6 +413,9 @@ Week of 7 March 2022
 ## Objectives
 - Learning to use jQuery
 
+## Template
+- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
+
 ## Before class
 
 ### Topics
@@ -450,6 +468,9 @@ Week of 14 March 2022
 - Learning to use jQuery UI
 - Using form input in a program
 
+## Template
+- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
+
 ## Before class
 
 ### Topics
@@ -498,6 +519,9 @@ Week of 21 March 2022
 ## Objectives
 - Learning the structure of Phaser
 - Using Phaser to make simple game structures
+
+## Template
+- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
 
 ## Before class
 
