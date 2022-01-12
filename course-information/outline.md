@@ -28,7 +28,7 @@ Milieux Institute for Arts, Culture, and Technology
 
 ## Office hours (on Discord)
 
-Wednesdays, 14:00-16:00
+tbd.
 
 
 ## TAs (see Moodle for contact details)
@@ -39,6 +39,10 @@ Madeline Zaytsoff
 ## [Territorial acknowledgment](https://www.concordia.ca/about/indigenous/territorial-acknowledgement.html)
 
 We acknowledge that Concordia University is located on unceded Indigenous lands. The Kanien’kehá:ka Nation is recognized as the custodians of the lands and waters on which we gather today. Tiohtiá:ke/Montreal is historically known as a gathering place for many First Nations. Today, it is home to a diverse population of Indigenous and other peoples. We respect the continued connections with the past, present and future in our ongoing relationships with Indigenous and other peoples within the Montreal community.
+
+## Commitment to Diversity and Safer Spaces
+
+The Department of Design and Computation Arts is committed to fostering an equitable and positive learning experience for all students, staff and faculty, free from discrimination based for example on race, gender, gender identity and expression, sexual orientation, ability, religion, ethnicity, age, etc. We value diversity and difference, and strive together to create safer spaces in our classrooms, studios, and labs, where all students can fully engage in scholarly and artistic pursuits, knowing that harmful behaviour (e.g. harassment, microaggressions, intolerance, disrespectful language, etc.) is unacceptable. We believe that celebrating difference is fundamental to supporting an academic community where innovation, creative exploration, and intellectual freedom can flourish.
 
 ## Description
 
@@ -63,14 +67,12 @@ Each week will include a short programming activity covering the topic of the we
 ### Class structure
 
 #### Discussion
-Each class will being with a discussion period in "classroom" group Voice and Text channels on the course Discord. The instructor will recap the week's material and answer any and all questions about it. Additionally topics for discussion will be introduced as necessary by the instructor, TA, and students.
-
-Attendance of the start of class period is heavily recommended.
+Each class will being with a discussion period (either online or in person). The instructor will briefly recap the week's material and lead a live-coding session along with Q&A.
 
 #### Studio time
-After the start of class period, there will be studio time during which the instructor and TA will be available for specific student requests for assistance via the Discord and/or Zoom.
+After the start of class period, there will be studio time during which the instructor and TA will be available for specific student requests for assistance either online or in person.
 
-Attendance of the studio period is optional, but students are encouraged to take the time to connect with the instructor and TAs, even if only to show their work in progress.
+Attendance of the studio period is technically optional, but students are highly encouraged to take the time to connect with the instructor and TAs, even if only to show their work in progress.
 
 ### Exercises
 Most weeks with subject matter will include an evaluated exercise for students to demonstrate mastery of the topic(s) covered that week.
@@ -79,7 +81,7 @@ Most weeks with subject matter will include an evaluated exercise for students t
 There will be two graded projects during the course. Each will be used as an opportunity for students to practice and develop their programming skills with room to express their own ideas.
 
 ### Office hours
-The instructor will be live on Discord for further hours during the week explicitly to support students with questions about programming topics, activities, exercises, projects, and anything else of relevance.
+The instructor will be live on Discord or in person for further hours during the week explicitly to support students with questions about programming topics, activities, exercises, projects, and anything else of relevance.
 
 ## Expected skills
 
@@ -99,7 +101,7 @@ Students will create their own repository on GitHub to save, track, and present 
 
 ## Discord
 
-[Discord](https://discord.com/) will be used as our common space for this course. It will include general channels for everyone to hang out and chat, as well as channels for class time and "offices" for the instructor and the TAs. Everyone will use their real name (or recognizable nickname) as their nickname on the Discord. Ideally, everyone will include their pronouns at the end of their Discord nickname.
+[Discord](https://discord.com/) will be used as a common space for this course, for offering online teaching where needed and also online support for students' work. Everyone will use their real name (or recognizable nickname) as their nickname on the Discord. Ideally, everyone will include their pronouns at the end of their Discord nickname.
 
 ## Evaluation
 
@@ -141,21 +143,15 @@ When creating projects in code, make sure you attribute all elements that are no
 
 ## Technology
 
-The practical work done in this class will take place on your own computer, with course software installed on it by you. The instructor is significantly more experienced with macOS, but will work to support Windows and even Linux as needed. This course does not require a significantly powerful machine beyond the ability to run a web browser.
-
+The practical work done in this class will take place on your own computer (with course software installed on it by you) or on the computers in the computer labs at Concordia. The instructor is significantly more experienced with macOS, but will work to support Windows and even Linux as needed. This course does not require a significantly powerful machine beyond the ability to run a web browser.
 
 ## [Course Schedule](./schedule.md)
 
 (Click through for week-by-week information about what we will cover in the course.)
 
-
 ## [Design and Computation Arts Syllabus](https://www.concordia.ca/content/dam/finearts/design/docs/dcart-undergraduate-syllabus.pdf)
 
 (Click through for the standardized information from D/CART that is included as part of all course outlines.)
-
-## Commitment to Diversity and Safer Spaces
-
-The Department of Design and Computation Arts is committed to fostering an equitable and positive learning experience for all students, staff and faculty, free from discrimination based for example on race, gender, gender identity and expression, sexual orientation, ability, religion, ethnicity, age, etc. We value diversity and difference, and strive together to create safer spaces in our classrooms, studios, and labs, where all students can fully engage in scholarly and artistic pursuits, knowing that harmful behaviour (e.g. harassment, microaggressions, intolerance, disrespectful language, etc.) is unacceptable. We believe that celebrating difference is fundamental to supporting an academic community where innovation, creative exploration, and intellectual freedom can flourish.
 
 ## Behaviour
 

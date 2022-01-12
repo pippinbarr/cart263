@@ -64,7 +64,6 @@ Week of 10 January 2022
 * Introductions (don't forget your pronouns!)
 * Reviewing the [Course Outline](./outline.md)
 * Reviewing the [Course Schedule](./schedule.md)
-* Time management (class scheduling, office hours)
 * Waiting list? Is anyone on it?
 * Software setup? Any problems?
 * Office hours? Office hour? Pippin's time
@@ -115,7 +114,7 @@ Week of 17 January 2022
 * **Complete** [Exercise 1: Where's Sausage Dog? New Game+](../exercises/wheres-sausage-dog-new-game-plus.md) (due the night of class)
 
 ### Examples
-- For various examples of JavaScript and p5, refer to the [CART253 Fall 2020 repository](https://www.github.com/pippinbarr/cart253-2020/).
+- For various examples of JavaScript and p5, refer to the [CART253](https://pippinbarr.github.io/cc/1/examples/) and Pippin's [p5.js example collections](https://editor.p5js.org/pippinbarr/collections).
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
 * Q&A
