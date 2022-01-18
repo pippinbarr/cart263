@@ -117,10 +117,7 @@ Week of 17 January 2022
 - For various examples of JavaScript and p5, refer to the [CART253](https://pippinbarr.github.io/cc/1/examples/) and Pippin's [p5.js example collections](https://editor.p5js.org/pippinbarr/collections).
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
-  * Inheritance?
-* Office hours are: Wednesdays, 14:00-16:00
+* Q&A / Live coding
 * Introducing [Project 1: A Night at the Movies](../projects/project1/README.md)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 
