@@ -9,6 +9,17 @@
 
 ---
 
+## Example projects
+
+Bear in mind that previous years' projects may not have had an identical brief or grading scheme to this one.
+
+### 2021
+* *Learn English* by Sharon Ku
+  * [Online](https://sharon-ku.github.io/cart263/projects/project1/)
+  * [Source](https://sharon-ku.github.io/cart263/projects/project1/)
+
+---
+
 ## Objectives
 
 1. Confidence with JavaScript and p5.js

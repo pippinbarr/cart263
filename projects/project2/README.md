@@ -4,7 +4,11 @@
 * Proposal and prototype (10%)
 * Final project (40%)
 
-### Example final projects from 2020
+## Example projects
+
+Bear in mind that previous years' projects may not have had an identical brief or grading scheme to this one.
+
+### 2020
 * *Computational Wizard Duel* by Anne Boutet
   * [Online](https://purplunicorn25.github.io/CART263/00-Projects/Project_3/index.html)
   * [Source](https://github.com/purplunicorn25/CART263/tree/master/00-Projects/Project_3)
@@ -17,6 +21,13 @@
 * *Questionable Logic: The Cube* by Yichen Wang
   * [Online](https://tonylindorock.github.io/cart263-2020/Projects/P3/index.html)
   * [Source](https://github.com/tonylindorock/cart263-2020/tree/master/Projects/P3)
+
+### 2021
+* *Fogdog* by Sharon Ku
+  * [Online](https://sharon-ku.github.io/cart263/projects/project2/)
+  * [Source](https://github.com/sharon-ku/cart263/tree/main/projects/project2)
+* *Fruitjam* by Zi Di Zhu
+  * [Online](https://zidizhu.github.io/cart263/projects/project2-fruitjam-prototype/)
 
 #### Deadlines
 
