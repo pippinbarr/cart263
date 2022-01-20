@@ -21,6 +21,9 @@ Bear in mind that previous years' projects may not have had an identical brief o
 * *Questionable Logic: The Cube* by Yichen Wang
   * [Online](https://tonylindorock.github.io/cart263-2020/Projects/P3/index.html)
   * [Source](https://github.com/tonylindorock/cart263-2020/tree/master/Projects/P3)
+* *Surrealistic Computer Game* by Sylvain Tran
+  * [Online](https://sylvaintran.github.io/cart263-Winter2020/projects/p3/)
+  * [Source](https://github.com/SylvainTran/cart263-Winter2020/tree/master/projects/p3)
 
 ### 2021
 * *Fogdog* by Sharon Ku
@@ -28,6 +31,9 @@ Bear in mind that previous years' projects may not have had an identical brief o
   * [Source](https://github.com/sharon-ku/cart263/tree/main/projects/project2)
 * *Fruitjam* by Zi Di Zhu
   * [Online](https://zidizhu.github.io/cart263/projects/project2-fruitjam-prototype/)
+* *It Chooses* by Angel Cenerini
+  * [Online](https://angelcellacenerini.github.io/CART263/Projects/Project02/Project02_Prototype/)
+  * [Source](https://github.com/AngelCellaCenerini/CART263/tree/main/Projects/Project02/Project02_Prototype)
 
 #### Deadlines
 
