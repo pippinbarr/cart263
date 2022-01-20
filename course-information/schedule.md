@@ -16,8 +16,8 @@
 - Week 4 - [Data](#data) - Working with JSON data and browser-based storage
 - Week 5 - [AI](#ai) - Playing with machine learning models
 - Week 6 - [Project 1 Studio](#project-1-studio) - Studio support for Project 1
-- Reading week
 - Week 7 - [The webpage](#the-webpage) - Introduction to HTML, CSS, and the DOM
+- Reading week
 - Week 8 - [jQuery](#jquery) - Manipulating HTML and CSS via jQuery
 - Week 9 - [jQuery UI](#jquery-ui) - Interface elements with jQuery UI
 - Week 10 - [Game Engine](#game-engine) - Working with Phaser as a game engine
@@ -314,7 +314,6 @@ Week of 14 February 2022
 * Q&A
 * [Project 1: A Night at the Movies](../projects/project1/README.md)
 * [Project 2: Anything](../projects/project2/README.md)
-* Remember to prepare for the [The Webpage](#the-webpage) week now or during reading week
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ## Studio (in Discord studio channels after classroom period)
@@ -325,7 +324,6 @@ Week of 14 February 2022
 ## Submit [Project 1: A Night at the Movies](../projects/project1/README.md)
 
 ## Homework
-* Remember to prepare for The Webpage now or during reading week
 * Start on [Project 2: Anything](../projects/project2/README.md)
 
 ---

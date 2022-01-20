@@ -4,8 +4,8 @@
 20% of final grade (see grading rubric below)  
 
 #### Deadlines
-* Section A (Tuesdays): 11:59PM, 15 February 2022
-* Section B (Thursdays) 11:59PM, 17 February 2022
+* Section A (Tuesdays): 11:59PM, 15-22 February 2022 (one week flex)
+* Section B (Thursdays) 11:59PM, 17-24 February 2022 (one week flex)
 
 ---
 
@@ -17,7 +17,7 @@ Bear in mind that previous years' projects may not have had an identical brief o
 * *Commuting is the Unrequited Love* by Sylvain Tran
   * [Online](https://sylvaintran.github.io/cart263-Winter2020/projects/p1/)
   * [Source](https://github.com/SylvainTran/cart263-Winter2020/tree/master/projects/p1)
-  
+
 ### 2021
 * *Learn English* by Sharon Ku
   * [Online](https://sharon-ku.github.io/cart263/projects/project1/)
