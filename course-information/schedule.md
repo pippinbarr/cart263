@@ -169,10 +169,8 @@ Week of 24 January 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
-* Example revamp
 * [Project 1: A Night at the Movies](../projects/project1/README.md) (ongoing)
+* Review of the week's material + Q&A
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ## Studio (in Discord studio channels after classroom period)
