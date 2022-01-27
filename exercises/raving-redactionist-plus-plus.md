@@ -57,12 +57,7 @@ Your submission should just be plain text that includes (substituting your GitHu
 
 ## Evaluation
 
-Grading for exercises is pass/fail. Passing requires **all** of the following to be satisfactory:
-
-- **Runs** and **meets the brief**
-- Is **well structured**, with new code added in sensible places in sensible orders
-- Includes a **starting commit** and then a reasonable number of commits throughout the work that include **descriptive messages** about what was done. Messages should be **prefixed by `Ex:`** (e.g. `Ex: Added a gasping sound effect when a secret is revealed!`).
-- Follows all **style guidelines** (see the [Style Guide](../guides/style-guide.md))
+See the [evaluation guide for exercises](./evaluation-guide).
 
 ---
 
