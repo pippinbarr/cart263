@@ -169,6 +169,7 @@ Week of 24 January 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
+* Thoughts about return to in-person classes (February 3 for Thursday section, February 8 for Tuesday section)
 * [Project 1: A Night at the Movies](../projects/project1/README.md) (ongoing)
 * Review of the week's material + Q&A
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
@@ -221,8 +222,9 @@ Week of 31 January 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
+* Thoughts about return to in-person classes (February 3 for Thursday section, February 8 for Tuesday section)
+* Workflow in the CDA labs (Thursday section)
+* Review + Q&A
 * [Project 1: A Night at the Movies](../projects/project1/README.md)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -274,8 +276,8 @@ Week of 7 February 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
+* Workflow in the CDA labs (Tuesday section)
+* Review + Q+A
 * [Project 1: A Night at the Movies](../projects/project1/README.md)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 * **2021 D/CART Year End Show**
@@ -309,7 +311,7 @@ Week of 14 February 2022
 * Work on [Project 1: A Night at the Movies](../projects/project1/README.md)
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
+* Review + Q+A
 * [Project 1: A Night at the Movies](../projects/project1/README.md)
 * [Project 2: Anything](../projects/project2/README.md)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
@@ -374,8 +376,7 @@ Week of 21 February 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
+* Review + Q+A
 * Project 2
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -434,8 +435,7 @@ Week of 7 March 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
+* Review + Q+A
 * [Project 2: Anything](../projects/project2/README.md)
   * [Example final projects from 2020](../projects/project2/README.md#example-final-projects-from-2020)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
@@ -487,8 +487,7 @@ Week of 14 March 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
+* Review + Q+A
 * [Project 2: Anything](../projects/project2/README.md)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -541,8 +540,7 @@ Week of 21 March 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A
-* Review of the week's material
+* Review + Q+A
 * [Project 2: Anything](../projects/project2/README.md)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
 
