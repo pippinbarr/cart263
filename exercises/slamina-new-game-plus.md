@@ -5,7 +5,7 @@
 - Note: Only your **best five exercises** will count for your final grade
 
 #### Deadlines
-- Section A (Tuesdays): 11:59PM, 25 FeJanuary 2022.
+- Section A (Tuesdays): 11:59PM, 25 February 2022.
 - Section B (Thursdays): 11:59PM, 27 February 2022.
 
 ---
