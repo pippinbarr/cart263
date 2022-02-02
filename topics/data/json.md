@@ -232,7 +232,7 @@ function draw() {
 
   // Display the meaning
   push();
-  textSize(32);
+  textSize(18);
   textAlign(CENTER);
   fill(255,255,0);
   text(description,width/2,height/2);
@@ -275,7 +275,7 @@ function draw() {
 
   // Display the meaning
   push();
-  textSize(32);
+  textSize(18);
   textAlign(CENTER);
   fill(255,255,0);
   text(firstShadowMeaning,width/2,height/2);
@@ -320,13 +320,11 @@ function draw() {
 
   // Display the fortune
   push();
-  textSize(32);
+  textSize(18);
   textAlign(CENTER, CENTER);
   fill(255, 255, 0);
-  // Center the resulting text box
-  rectMode(CENTER);
   // Use width and height properties to break up the text
-  text(fortune, width / 2, height / 2, width / 2, height / 2);
+  text(fortune, width / 2, height / 2);
   pop();
 }
 ```
@@ -362,13 +360,11 @@ function draw() {
 
   // Display the fortune
   push();
-  textSize(32);
+  textSize(18);
   textAlign(CENTER, CENTER);
   fill(255, 255, 0);
-  // Center the resulting text box
-  rectMode(CENTER);
-  // Use width and height properties to break up the text
-  text(fortune, width / 2, height / 2, width / 2, height / 2);
+  // Display the fortune
+  text(fortune, width / 2, height / 2);
   pop();
 }
 
@@ -432,13 +428,11 @@ function draw() {
 
   // Display the fortune
   push();
-  textSize(32);
+  textSize(18);
   textAlign(CENTER, CENTER);
   fill(255, 255, 0);
-  // Center the resulting text box
-  rectMode(CENTER);
-  // Use width and height properties to break up the text
-  text(fortune, width / 2, height / 2, width / 2, height / 2);
+  // Display the fortune
+  text(fortune, width / 2, height / 2);
   pop();
 }
 ```
@@ -486,10 +480,9 @@ function draw() {
   // Display the current joke
   push();
   fill(255, 255, 0);
-  textSize(32);
+  textSize(18);
   textAlign(CENTER, CENTER);
-  rectMode(CENTER);
-  text(jokeText, width / 2, height / 2, width / 2, height / 2);
+  text(jokeText, width / 2, height / 2);
   pop();
 }
 ```
@@ -567,10 +560,9 @@ function draw() {
   // Display the current joke
   push();
   fill(255, 255, 0);
-  textSize(32);
+  textSize(18);
   textAlign(CENTER, CENTER);
-  rectMode(CENTER);
-  text(jokeText, width / 2, height / 2, width / 2, height / 2);
+  text(jokeText, width / 2, height / 2);
   pop();
 }
 
@@ -603,7 +595,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // CONVERT THE DATA OBJECT BACK INTO AN ARRAY
-  
+
   // Get the full list of property names in the joke data object
   let jokeKeys = Object.keys(jokeDataObject);
   // Go through the keys and populate the actual data array with the associated values
@@ -625,10 +617,9 @@ function draw() {
   // Display the current joke
   push();
   fill(255, 255, 0);
-  textSize(32);
+  textSize(18);
   textAlign(CENTER, CENTER);
-  rectMode(CENTER);
-  text(jokeText, width / 2, height / 2, width / 2, height / 2);
+  text(jokeText, width / 2, height / 2);
   pop();
 }
 ```
