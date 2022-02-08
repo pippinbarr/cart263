@@ -7,6 +7,8 @@
 * Section A (Tuesdays): 11:59PM, 15-22 February 2022 (one week flex)
 * Section B (Thursdays) 11:59PM, 17-24 February 2022 (one week flex)
 
+In cases of dire need, contact Pippin about the possibility of submitting in the Reading Week. Offer valid only if you get in touch comfortably before the final deadlines above.
+
 ---
 
 ## Example projects

@@ -276,26 +276,17 @@ Week of 7 February 2022
 Click through for examples of the topics covered in this section
 
 ## Classroom (in Discord classroom channels at 13:30 on the day of class)
+* [Project 1: A Night at the Movies](../projects/project1/README.md) due dates flexed
 * Workflow in the CDA labs (Tuesday section)
 * Review + Q+A
-* [Project 1: A Night at the Movies](../projects/project1/README.md)
 * The [C-LAB](https://clab.concordia.ca/) is there to help you
-* **2021 D/CART Year End Show**
-  * This year’s exhibition will be held virtually and is open to all.
-  * The D/CART Year End Show is a great opportunity to promote your work, and yourself as an artist. Whether you created your work in Concordia's studios or in the comfort of your bedroom, we want to see it! This year’s theme, Space Between, is an opportunity to think about new spaces opening up in our lives and our practices.
-  * Print, digital, sculptural… existential? Submit your project in the medium of your choice!
-  * In order to submit, you must be enrolled in the D/CART program and your submission has to have been created within the context of a D/CART class.
-  * Submission link: [http://tinyurl.com/dcart2021](http://tinyurl.com/dcart2021)
-  * Facebook event link: [http://tinyurl.com/space-between-event](http://tinyurl.com/space-between-event)
 
 ## Studio (in Discord studio channels after classroom period)
 * Instructor and TA available to help
 * Work on Exercise
 * Work on Project
-* Start work on next week's material
 
 ## Homework
-* Continue work on next week's material
 * [Project 1: A Night at the Movies](../projects/project1/README.md)
 
 ---
