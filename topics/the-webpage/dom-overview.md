@@ -383,9 +383,19 @@ clownSection.appendChild(clownInfoP);
 
 ## Removing elements
 
-Perhaps unsurprisingly, we can remove elements from the webpage. Importantly, though, we can only remove elements through their **parent** element (the element they are inside). Again, HTML is very hierarchical.
+Perhaps unsurprisingly, we can remove elements from the webpage.
 
-The easiest way to do this is by knowing that every element has a `.parentElement` property that contains the parent element of that element. This makes it easy to remove them!
+The easiest approach here is to use `.remove()`:
+
+```javascript
+// Select the item we want to remove by id
+let heading = document.getElementById(`main-heading`);
+// Remove the element
+heading.remove(); // Removing the heading from the page
+```
+
+
+Another way to do this is by knowing that every element has a `.parentElement` property that contains the parent element of that element. This makes it easy to remove children:
 
 ```javascript
 // Select the item we want to remove by id

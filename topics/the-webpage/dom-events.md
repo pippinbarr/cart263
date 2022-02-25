@@ -260,6 +260,24 @@ function setRedTextColor(event) {
 
 Now all three of our event listeners use the same function to handle the event. Because we used `event.target`, the same function works each time! Nice one.
 
+#### `this` in event listeners
+
+In fact, one nice feature of many of the DOM events is that when they call your event handling function they will automatically set `this` to `event.target`. If you find that easier on the eyes, then that's another way to do the same thing, e.g.:
+
+```javascript
+let mainHeading = document.getElementById(`main-heading`);
+mainHeading.addEventListener(`click`, setRedTextColor);
+let subHeading = document.getElementById(`sub-heading`);
+subHeading.addEventListener(`click`, setRedTextColor);
+let paragraph = document.getElementById(`paragraph`);
+paragraph.addEventListener(`click`, setRedTextColor);
+
+function setRedTextColor(event) {
+  // Use "this" to change the style of the specific clicked element
+  this.style[`color`] = `#ff0000`;
+}
+```
+
 ### Recap
 
 That was a fairly deep dive into the components of using `.addEventListener()` with `click`. These same principles apply any time we're dealing with an event listener. Essentially we need to remember:
