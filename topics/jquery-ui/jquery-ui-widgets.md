@@ -145,7 +145,7 @@ If we look at the [Demos page for Dialog](https://jqueryui.com/dialog/) we get t
 
 ### The simplest dialog
 
-The most basic example we see is purely informational. If we look at the source code, we see that the dialog contents are created out of a `<div>` with standard HTML in it. Also notable is that jQuery UI uses a `title` attribute in the `<div>` to give a title to the dialog. The dialog itself is created when we call the `.draggable()` method in our script on the selected `<div>`.
+The most basic example we see is purely informational. If we look at the source code, we see that the dialog contents are created out of a `<div>` with standard HTML in it. Also notable is that jQuery UI uses a `title` attribute in the `<div>` to give a title to the dialog. The dialog itself is created when we call the `.dialog()` method in our script on the selected `<div>`.
 
 So, if we wanted an informational panel at the start of our prison "simulation", we could create a `<div>` on our page in much the same way, and use `.dialog()` on it...
 

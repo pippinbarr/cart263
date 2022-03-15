@@ -215,7 +215,7 @@ You'll notice that the documentation page is **long**. Let's not actually read t
 The navigation section at the top of the documentation is helpful because it lets us know the three major categories of documentation, though it doesn't really tell us much about what they are. Nonetheless, they are:
 
 * **Options**, which are the options we can provide to the `.draggable()` method when we apply it to an element (or can change later on with a method) (e.g. we've already used `axis` and `containment`)
-* **Methods**, which are methods we can tell the `.draggable()` method to run (e.g. there's a method to disable dragging temporarily()
+* **Methods**, which are methods we can tell the `.draggable()` method to run (e.g. there's a method to disable dragging temporarily)
 * **Events**, which are the possible event listeners we can use to trigger our own functions when things happen with a draggable element (e.g. we've already used `start` and `stop`)
 
 Each of these categories has a list of every possible option available and you can click through to read the specifics. It's potentially overwhelming, but think of it more as a directory for finding stuff you're interested in, rather than an obligation to read and know absolutely everything immediately.
