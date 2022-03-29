@@ -273,7 +273,7 @@ class Play extends Phaser.Scene {
     // collectables
     this.collectables = this.physics.add.group({
       key: 'wall',
-      repeat: 9
+      quantity: 9
     });
 
     this.collectables.children.each(function(collectable) {
