@@ -75,9 +75,9 @@ function start() {
   // Note that we use $.ajax here rather than $.loadJSON
   // because we're loading a text file
   $.ajax({
-      url: `js/script.js`, // Location of the file
-      dataType: `text` // The type of data we're requesting
-    })
+    url: `js/script.js`, // Location of the file
+    dataType: `text` // The type of data we're requesting
+  })
     .done(gotData) // Call getData() on success
     .fail(dataError); // Call dataError() on failure
 
@@ -143,6 +143,8 @@ function keyPressed(event) {
     // And advance the character we're looking at
     currentChar++;
   }
+
+  $(`#code`).scrollTo(10000000000);
 }
 
 
@@ -232,10 +234,10 @@ function createDialog() {
     autoOpen: true,
     // Specify the buttons in the dialog (they both just close it)
     buttons: {
-      "Hack": function() {
+      "Hack": function () {
         $(this).dialog("close");
       },
-      "Hack harder": function() {
+      "Hack harder": function () {
         $(this).dialog("close");
       }
     }
