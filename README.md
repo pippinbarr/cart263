@@ -17,8 +17,8 @@ Office hours: Thursdays, 15:00-16:00 (subject to discussion)
 
 ### Section B
 
-Lee Wilkins
-Department of Design and Computation Arts
+Lee Wilkins  
+Department of Design and Computation Arts  
 [l.wilkins@concordia.ca](mailto:l.wilkins@concordia.ca)  
 [www.leecyb.org](http://leecyb.org)  
 

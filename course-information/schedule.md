@@ -23,12 +23,12 @@
 - Week 9 - [The Webpage](#the-webpage) - JavaScript and the webpage
 - Week 10 - [Final project 1](#final-project-1) - Support for the final project
 - Week 11 - [Final project 2](#final-project-2) - Support for the final project
-- Week 12 - [FInal project 3](#final-project-3) - Support for the final project
+- Week 12 - [Final project 3](#final-project-3) - Support for the final project
 
 ## Templates
 
-- Template p5 Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/template-p5-project) [.zip](https://pippinbarr.com/cart263/templates/template-p5-project.zip)
-- Template Plain JavaScript Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)
+- Template p5 Project ([Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/template-p5-project)) ([.zip](https://pippinbarr.com/cart263/templates/template-p5-project.zip))
+- Template Plain JavaScript Project ([Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project)) ([.zip](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip))
 
 ## Projects
 
