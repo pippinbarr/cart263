@@ -4,7 +4,7 @@
 
 ## Required material on the webpage
 
-**Follow along** with the Plain JavaScript Template [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip).
+**Follow along** with the Plain JavaScript Template ([Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project), [.zip](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)).
 
 ### The DOM (Document Object Model)
 

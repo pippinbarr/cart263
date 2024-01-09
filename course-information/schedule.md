@@ -1,4 +1,4 @@
-#### [Home](../README.md) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
+#### [Home](../) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
 
 # Schedule
 
@@ -32,10 +32,10 @@
 
 ## Projects
 
-- [Speech Jam](../projects/speech-jam/README.md)
-- [AI Jam](../projects/ai-jam/README.md)
-- [Game Engine Jam](../projects/game-engine-jam/README.md)
-- [Final Project](../projects/final-project/README.md)
+- [Speech Jam](../projects/speech-jam/)
+- [AI Jam](../projects/ai-jam/)
+- [Game Engine Jam](../projects/game-engine-jam/)
+- [Final Project](../projects/final-project/)
 
 ## Hello, World! Again
 
@@ -92,7 +92,7 @@ Week of 22 January 2024
 
 ### Before class
 
-- Work with the [JavaScript Review learning materials](../topics/voices/README.md)
+- Work with the [JavaScript Review learning materials](../topics/voices/)
 
 ### Classroom
 
@@ -121,10 +121,8 @@ Week of 29 January 2024
 
 ### Before class
 
-- Work with the [Voices learning materials](../topics/voices/README.md)
+- Work with the [Voices learning materials](../topics/voices/)
   - **NOTE**: You can spread this as you wish across this week and next week
-
-#### Activity
 
 ### [Examples](../examples/#voices)
 
@@ -134,7 +132,7 @@ Click through for examples of the topics covered in this section
 
 - Q&A / Live coding
 - Next week: [Voices 2](#voices-2)
-- Next week: [Speech Jam](../projects/speech-jam/README.md) is due
+- Next week: [Speech Jam](../projects/speech-jam/) is due
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ## Studio
@@ -155,12 +153,12 @@ Week of 5 February 2024
 
 ### Before class
 
-- Work with the [Voices learning materials](../topics/voices/README.md)
+- Work with the [Voices learning materials](../topics/voices/)
 
 ### Classroom
 
 - Q&A / Live coding
-- Tonight: [Speech Jam](../projects/speech-jam/README.md) is due!
+- Tonight: [Speech Jam](../projects/speech-jam/) is due!
 - Next week: [AI 1](#ai-1)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -184,14 +182,14 @@ Week of 12 February 2024
 
 ### Before class
 
-- Work with the [ml5.js learning materials](../topics/ai/README.md)
+- Work with the [ml5.js learning materials](../topics/ai/)
   - **NOTE**: You can spread this as you wish across this week and next week
 
 ### Classroom
 
 - Q&A / Live coding
 - Next week: [AI 2](#ai-2)
-- Next week: [AI Jam](../projects/ai-jam/README.md) is due
+- Next week: [AI Jam](../projects/ai-jam/) is due
 - Speech Jam Demos!
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -209,12 +207,12 @@ Week of 19 February 2024
 
 ### Before class
 
-- Work with the [ml5.js learning materials](../topics/ai/README.md)
+- Work with the [ml5.js learning materials](../topics/ai/)
 
 ### Classroom
 
 - Q&A / Live coding
-- Tonight: [AI Jam](../projects/ai-jam/README.md) is due tonight!
+- Tonight: [AI Jam](../projects/ai-jam/) is due tonight!
 - Next week: Reading week!
 - The week after: [Game Engine 1](#game-engine-1)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
@@ -246,14 +244,14 @@ Week of 4 March 2024
 
 ### Before class
 
-- Work with the [Game Engine learning materials](../topics/game-engine/README.md)
+- Work with the [Game Engine learning materials](../topics/game-engine/)
   - **NOTE**: You can spread this as you wish across this week and next week
 
 ### Classroom
 
 - Q&A / Live coding
 - Next week: [Game Engine 2](#game-engine-2)
-- Next week: [Game Engine Jam](../projects/game-engine-jam/README.md) is due!
+- Next week: [Game Engine Jam](../projects/game-engine-jam/) is due!
 - AI Jam Demos!
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -275,7 +273,7 @@ Week of 11 March 2024
 
 ### Before class
 
-- Work with the [Game Engine learning materials](../topics/game-engine/README.md)
+- Work with the [Game Engine learning materials](../topics/game-engine/)
 
 ### [Examples](../examples/#game-engine)
 
@@ -284,7 +282,7 @@ Click through for examples of the topics covered in this section
 ### Classroom
 
 - Q&A / Live coding
-- Tonight: [Game Engine Jam](../projects/game-engine-jam/README.md) is due!
+- Tonight: [Game Engine Jam](../projects/game-engine-jam/) is due!
 - Next week: [The Webpage](#the-webpage)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -309,13 +307,13 @@ Week of 18 March 2024
 
 ### Before class
 
-- Work with the [The Webpage learning materials](../topics/the-webpage/README.md)
+- Work with the [The Webpage learning materials](../topics/the-webpage/)
 
 ### Classroom
 
 - Q&A / Live coding
-- From now on: [Final Project](../projects/final-project/README.md) is out main concern
-- Next week: [Final Project Prototype and Proposal](../projects/final-project/README.md) is due!
+- From now on: The [Final Project](../projects/final-project/) is out main concern
+- Next week: [Final Project Prototype and Proposal](../projects/final-project/) is due!
 - Game Engine Jam Demos!
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -334,6 +332,15 @@ Week of 25 March 2024
 - Finishing up proposal and prototype for final project
 - Working on the final project
 
+### Classroom
+
+- Q&A
+- Tonight: [Final Project Prototype and Proposal](../projects/final-project/) is due!
+
+### Studio
+
+- Working on the [Final Project](../projects/final-project/)
+
 ---
 
 ## Final Project 2
@@ -344,6 +351,14 @@ Week of 1 April 2024
 
 - Working on the final project
 
+### Classroom
+
+- Q&A
+
+### Studio
+
+- Working on the [Final Project](../projects/final-project/)
+
 ---
 
 ## Final Project 3
@@ -353,5 +368,13 @@ Week of 8 April 2024
 ### Objectives
 
 - Working on the final project
+
+### Classroom
+
+- Q&A
+
+### Studio
+
+- Working on the [Final Project](../projects/final-project/)
 
 ---

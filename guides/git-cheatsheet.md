@@ -10,9 +10,9 @@ To begin work on a repository we need to have it on our local computer. If we do
 
 Go `File > Clone Repository...` and either select the desired repository from the list or paste in the URL for the repository (e.g. `https://www.github.com/pippinbarr/cart263/`)
 
-#### Atom
+#### VS Code
 
-Open the command palette with `Command-Shift-P` and type `clone` to bring up the `GitHub: Clone` command. Execute the command and follow the instructions, pasting in the URL for your repository in the "Clone from" field.
+Open the command palette with `Command-Shift-P` and type `clone` to bring up the `Git: Clone` command. Execute the command and follow the instructions, pasting in the URL for your repository in the "Clone from" field.
 
 #### Command line
 
@@ -27,9 +27,9 @@ Before starting work with your repository you should always at least check wheth
 
 Check the fetch/pull button at the top of the window, it will tell you if you can pull. Click it if you need to.
 
-#### Atom
+#### VS Code
 
-Check the fetch/pull button at the bottom right of the window, it will tell you if you can pull. Click it if you need to.
+Check the fetch/pull button at the bottom left of the window, it will tell you if you can pull. Click it if you need to.
 
 #### Command line
 
@@ -80,7 +80,7 @@ Click the push button at the bottom right.
 
 1. `git push`
 
-## Undo!
+## Undo
 
 Sometimes you need to go back in time. See also: [How to undo (almost) anything with Git](https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/)
 

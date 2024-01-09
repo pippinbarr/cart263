@@ -4,13 +4,18 @@
 
 ## When?
 
-8 January – 12 April, 2024
-Section A: Tuesdays, 13:15 – 17:15  
-Section B: Thursdays, 13:15 – 17:15
+8 January – 12 April, 2024  
+Section A: Tuesdays, 13:15 – 17:15
+Section B: Thursdays, 13:15 – 17:15  
 
 ## Where?
 
 Classroom / Discord / Email
+
+### Classrooms
+
+Section A: EV 5.635  
+Section B: ...
 
 ## Who?
 
@@ -116,14 +121,14 @@ Students will create their own repository on GitHub to save, track, and present 
 
 Specific evaluation requirements will be provided when assigned.
 
-* Voice Jam (10%)
-* AI Jam (10%)
-* Game Engine Jam (10%)
-* Final Project (50%)
-  * Proposal and prototype (10%)
-  * Final project (40%)
-* Short reflective essay (10%)
-* Participation (10%)
+* Voice Jam (12%)
+* AI Jam (12%)
+* Game Engine Jam (12%)
+* Final Project (40%)
+  * Proposal and prototype (5%)
+  * Final project (35%)
+* Short reflective essay (12%)
+* Participation (12%)
   * Participation includes: attending class, completing coursework, being present on the Discord, asking questions, contributing to discussions, sharing ideas, and coming to office hours, emailing the instructor with updates on projects (even if you do not need help, make sure to touch base with the instructor regularly in some capacity)
 
 ## French
