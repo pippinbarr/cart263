@@ -25,11 +25,11 @@ Before starting work with your repository you should always at least check wheth
 
 #### GitHub Desktop
 
-Check the fetch/pull button at the top of the window, it will tell you if you can pull. Click it if you need to.
+Check the fetch/pull button at the top of the window, it will tell you if there is anything to pull. Click it if you need to.
 
 #### VS Code
 
-Check the fetch/pull button at the bottom left of the window, it will tell you if you can pull. Click it if you need to.
+Check the fetch/pull button at the bottom left of the window (the main icon is a circle made of two arrows), it will tell you if you can pull by showing a down arrow with a number next to it. Click it if you need to.
 
 #### Command line
 
@@ -48,13 +48,12 @@ After doing a block of work you should __commit__ it to save it in your reposito
 3. Enter a sensible, explanatory commit message in the Summary field
 4. Click the `Commit to master` button
 
-#### Atom
+#### VS Code
 
-1. Open the Git pane using `Packages > GitHub > Toggle Git Tab` if it isn't already open (or use the key combination)
-2. Check that all the file you've changed are listed in the Unstaged Changes area (and remind yourself of what has been changed by click on them if you want to)
-3. Stage the changes (confirming you want to commit them) by clicking the `Stage All` button (you can also stage a subset if you wanted)
-4. Enter a sensible, explanatory commit message in the Commit Message field
-5. Click the `Commit to master` button
+1. Open the Git panel from the left-hand menu - it's the one that looks like three circles joined by lines, below the magnifying glass
+2. Check that all the file you've changed are listed in the Changes area (and remind yourself of what has been changed by clicking on them if you want to)
+3. Enter a sensible, explanatory commit message in the Message field
+4. Click the `Commit` button
 
 #### Command line
 
@@ -72,7 +71,7 @@ In order to store our commits on the remote repository host we need to __push__ 
 
 Click the push button at the top right.
 
-#### Atom
+#### VS Code
 
 Click the push button at the bottom right.
 
