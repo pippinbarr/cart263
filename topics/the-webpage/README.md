@@ -2,17 +2,7 @@
 
 **Consider looking at the optional material below on HTML and CSS if you aren't confident with those foundational aspects of how a webpage is made.**
 
-## Required material on the webpage
-
-**Follow along** with the Plain JavaScript Template ([Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project), [.zip](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)).
-
-### The DOM (Document Object Model)
-
-- **Watch** [6.3. DOM Overview](https://youtu.be/zajq8JthHyw) and **read** the [notes](../topics/the-webpage/dom-overview.md)
-- **Watch** [6.4. DOM Events](https://youtu.be/jPCzpDOg8Ts) and **read** the [notes](../topics/the-webpage/dom-events.md)
-- **Watch** [6.5. DOM Form Input](https://youtu.be/JmdN-mvMaLI) and **read** the [notes](../topics/the-webpage/dom-form-input.md)
-
-## Optional material on the webpage
+## Optional Webpage material
 
 ### HTML
 
@@ -21,6 +11,16 @@
 ### CSS
 
 - (Optional) **Watch** [6.2. CSS Overview](https://youtu.be/849hVdZQVsQ) and **read** the [notes](../topics/the-webpage/css-overview.md)
+
+## Required Webpage material
+
+**Follow along** with the Plain JavaScript Template ([Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project), [.zip](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)).
+
+### The DOM (Document Object Model)
+
+- **Watch** [6.3. DOM Overview](https://youtu.be/zajq8JthHyw) and **read** the [notes](../topics/the-webpage/dom-overview.md)
+- **Watch** [6.4. DOM Events](https://youtu.be/jPCzpDOg8Ts) and **read** the [notes](../topics/the-webpage/dom-events.md)
+- **Watch** [6.5. DOM Form Input](https://youtu.be/JmdN-mvMaLI) and **read** the [notes](../topics/the-webpage/dom-form-input.md)
 
 ## Activity
 

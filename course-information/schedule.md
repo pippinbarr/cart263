@@ -50,8 +50,8 @@ Week of 15 January 2024
 ### Before class
 
 - **Join** the Discord (invitation link at top of the course Moodle)
-- **Watch** [1.1. Welcome to Creative Computation II](https://youtu.be/xlZvoxpDHvg)
 - **Read** the [Course Outline](./outline.md)
+- **Read** the [Course Schedule](./schedule.md) (this is it!)
 - **Set up** your software
   - Follow the [Course Software Guide](../guides/course-software.md) guide
   - Set up your `cart263` course repository on GitHub (follow the [GitHub Guide](../guides/github-repository.md)) if needed)
