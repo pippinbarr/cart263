@@ -2,572 +2,356 @@
 
 # Schedule
 
-#### Contents
+## Contents
+
 - [Templates](#templates) - template projects
 - [Guides](../guides/) - high level guides
 - [Examples](../examples/) - full examples of code
 - [Projects](#projects) - project briefs and due dates
 
----
+## Weekly schedule
 
-- Week 1 - [Hello, World! Again!](#hello-world-again) - Getting settled
-- Week 2 - [Review](#review) - Remembering JavaScript and p5.js
-- Week 3 - [Voices](#voices) - Working with speech output and input
-- Week 4 - [Data](#data) - Working with JSON data and browser-based storage
-- Week 5 - [AI](#ai) - Playing with machine learning models
-- Week 6 - [Project 1 Studio](#project-1-studio) - Studio support for Project 1
-- Week 7 - [The webpage](#the-webpage) - Introduction to HTML, CSS, and the DOM
+- Week 1 - [Hello, World! Again!](#hello-world-again) - Settling in
+- Week 2 - [Review](#review) - JavaScript and p5.js
+- Week 3 - [Voices 1](#voices-1) - Speech output and input with p5.speech
+- Week 4 - [Voices 2](#voices-2) - Speech output and input with p5.speech
+- Week 5 - [AI 1](#ai-1) - Machine learning models with ml5
+- Week 6 - [AI 2](#ai-2) - Machine learning models with ml5
 - Reading week
-- Week 8 - [jQuery](#jquery) - Manipulating HTML and CSS via jQuery
-- Week 9 - [jQuery UI](#jquery-ui) - Interface elements with jQuery UI
-- Week 10 - [Game Engine](#game-engine) - Working with Phaser as a game engine
-- Week 11 - [Project 2 Studio I](#project-2-studio-i) - Studio support for Project 2
-- Week 12 - [Project 2 Studio II](#project-2-studio-ii) - Studio support for Project 2
-- Week 13 - [Project 2 Studio III](#project-2-studio-iii) - Studio support for Project 2
+- Week 7 - [Game Engine 1](#game-engine-1) - Game engines with Phaser 3
+- Week 8 - [Game Engine 2](#game-engine-2) - Game engines with Phaser 3
+- Week 9 - [The Webpage](#the-webpage) - JavaScript and the webpage
+- Week 10 - [Final project 1](#final-project-1) - Support for the final project
+- Week 11 - [Final project 2](#final-project-2) - Support for the final project
+- Week 12 - [FInal project 3](#final-project-3) - Support for the final project
 
----
+## Templates
 
-#### Templates
+- Template p5 Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/template-p5-project) [.zip](https://pippinbarr.com/cart263/templates/template-p5-project.zip)
+- Template Plain JavaScript Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)
 
-- Template p5 Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/template-p5-project) [.zip](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
-- Template Plain JavaScript Project [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
+## Projects
 
-#### Projects
-- [Project 1: A Night at the Movies](../projects/project1/README.md)
-- [Project 2: Anything](../projects/project2/README.md)
+- [Speech Jam](../projects/speech-jam/README.md)
+- [AI Jam](../projects/ai-jam/README.md)
+- [Game Engine Jam](../projects/game-engine-jam/README.md)
+- [Final Project](../projects/final-project/README.md)
 
----
+## Hello, World! Again
 
-# Hello, World! Again!
+Week of 15 January 2024
 
-Week of 10 January 2022
+### Objectives
 
-## Objectives
 - Software setup
 - Meeting each other
 - Discussing the course
 
-## Before class
+### Before class
+
 - **Join** the Discord (invitation link at top of the course Moodle)
 - **Watch** [1.1. Welcome to Creative Computation II](https://youtu.be/xlZvoxpDHvg)
 - **Read** the [Course Outline](./outline.md)
 - **Set up** your software
-  * Follow the [Course Software Guide](../guides/course-software.md) guide
-  * Set up your `cart263` course repository on GitHub (follow the [GitHub Guide](../guides/github-repository.md)) if needed)
-  * Review the [Version Control Guide](../guides/github-desktop.md) if needed
-  * Review the [Git Cheatsheet](../guides/git-cheatsheet.md) for a condensed review of version control using GitHub Desktop or Atom or the command line
+  - Follow the [Course Software Guide](../guides/course-software.md) guide
+  - Set up your `cart263` course repository on GitHub (follow the [GitHub Guide](../guides/github-repository.md)) if needed)
+  - Review the [Version Control Guide](../guides/github-desktop.md) if needed
+  - Review the [Git Cheatsheet](../guides/git-cheatsheet.md) for a condensed review of version control using GitHub Desktop or Atom or the command line
 - **Get** pumped!?
 
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Welcome
-* Territorial Acknowledgement and Inclusivity Statement
-* Introductions (don't forget your pronouns!)
-* Reviewing the [Course Outline](./outline.md)
-* Reviewing the [Course Schedule](./schedule.md)
-* Waiting list? Is anyone on it?
-* Software setup? Any problems?
-* Office hours? Office hour? Pippin's time
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
-  * Homepage: [https://clab.concordia.ca/](https://clab.concordia.ca/)
-  * Email: [computation.lab@concordia.ca](mailto:computation.lab@concordia.ca)
-  * Zoom office hours: [https://concordia-ca.zoom.us/my/the.computation.lab](https://concordia-ca.zoom.us/my/the.computation.lab) (Email first for the password)
-  * Discord: Email for an invitation if needed
-  * Workshops: [https://clab.concordia.ca/clab-workshops/](https://clab.concordia.ca/clab-workshops/)
+### Classroom
 
-## Studio (in Discord studio channels after classroom period)
+- Welcome
+- Reviewing the [Course Outline](./outline.md)
+- Introductions (don't forget your pronouns!)
+- Reviewing the [Course Schedule](./schedule.md)
+- Software setup? Any problems?
+- Office hours
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
+  - Homepage: [https://clab.concordia.ca/](https://clab.concordia.ca/)
+  - Email: [computation.lab@concordia.ca](mailto:computation.lab@concordia.ca)
+
+### Studio
+
 - Instructor and TA available to help
-- Start work on next week's material
-
-## Homework
-- Continue work on next week's material
 
 ---
 
-# Review
+## Review
 
-Week of 17 January 2022
+Week of 22 January 2024
 
-## Objectives
+### Objectives
+
 - Remembering JavaScript fundamentals
 - Remembering p5.js
 
-## Template
-- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
+### Template
 
-## Before class
+- [Template p5 Project](https://pippinbarr.com/cart263/templates/template-p5-project.zip)
 
-### Topics
+### Before class
 
-#### JavaScript Review
-- (If needed) **Read** [JavaScript syntax review](../topics/javascript/syntax-review/javascript-syntax-review.md)
-- (If needed) **Watch** [Creative Computation I videos](https://www.youtube.com/channel/UCgMMSLb6Zywjhk9JW6I00Aw) and **Review** [Creative Computation I materials](https://github.com/pippinbarr/cart253-2020/blob/master/course-information/schedule.md)
+- Work with the [JavaScript Review learning materials](../topics/voices/README.md)
 
-#### New JavaScript Concepts
-- **Watch** [2.1. Constants](https://youtu.be/s5ewBmui8BU) and **read** the [notes](../topics/javascript/constants.md).
-- **Watch** [2.2. Object parameters](https://youtu.be/pwx6-NSm-F0) and **read** the [notes](../topics/javascript/object-parameters.md).
-- **Watch** [2.3. First-class functions](https://youtu.be/44NrX7VlErM) and **read** the [notes](../topics/javascript/first-class-functions.md).
+### Classroom
 
-### Activity
-- **Complete** [Activity: Where's Sausage Dog?](../activities/wheres-sausage-dog.md) (**Watch** [2.4. Activity: Where's Sausage Dog?](https://youtu.be/r9ZCFCd4mjE) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/p5js/wheres-sausage-dog), [Play](https://pippinbarr.github.io/cart263/examples/p5js/wheres-sausage-dog/))
+- Q&A / Live coding
+- Next week: [Voices 1](#voices-1)
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
 
-### Exercise
-* **Complete** [Exercise 1: Where's Sausage Dog? New Game+](../exercises/wheres-sausage-dog-new-game-plus.md) (due the night of class)
+## Studio
 
-### Examples
-- For various examples of JavaScript and p5, refer to the [CART253](https://pippinbarr.github.io/cc/1/examples/) and Pippin's [p5.js example collections](https://editor.p5js.org/pippinbarr/collections).
-
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Q&A / Live coding
-* Introducing [Project 1: A Night at the Movies](../projects/project1/README.md)
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
-
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on [Exercise 1: Where's Sausage Dog? New Game+](../exercises/wheres-sausage-dog-new-game-plus.md) (due the night of class)
-* Start work on next week's material
-
-## Homework
-* Continue work on next week's material
-* Work on [Project 1: A Night at the Movies](../projects/project1/README.md)
+- Instructor and TA available to help
 
 ---
 
-# Voices
+## Voices 1
 
-Week of 24 January 2022
+Week of 29 January 2024
 
-## Objectives
-- Making the computer talk with ResponsiveVoice
-- Making the computer listen with annyang!
+### Objectives
 
-## Template
-- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
+- Making the computer talk
+- Making the computer listen
 
-## Before class
+### Template
 
-### Topics
+- [Template p5 Project](https://pippinbarr.com/cart263/templates/template-p5-project.zip)
 
-#### **ResponsiveVoice**
-* **Watch** [3.1. ResponsiveVoice](https://youtu.be/KwgEbGB21Xg) and **read** the [notes](../topics/voices/responsivevoice.md).
-* References
-  * [ResponsiveVoice Homepage](https://responsivevoice.org/)
-  * [ResponsiveVoice API](https://responsivevoice.org/api/)
+### Before class
 
-#### **annyang!**
-* **Watch** [3.2. annyang!](https://youtu.be/Zww_5hd8umo) and read the [notes](../topics/voices/annyang.md).
-* References
-  * [annyang! Homepage](https://www.talater.com/annyang/)
-  * [annyang! API](https://github.com/TalAter/annyang/blob/master/docs/README.md)
+- Work with the [Voices learning materials](../topics/voices/README.md)
+  - **NOTE**: You can spread this as you wish across this week and next week
 
-### Activity
-* **Complete** [Activity: Slamina](../activities/slamina.md) (**Watch** [3.3. Activity: Slamina](https://youtu.be/RKhwJgtAlYE) video to see Pippin doing it, but be aware he **makes some impressive mistakes!** then fixes them, it's raw and truthful) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/voices/slamina), [Online](https://pippinbarr.github.io/cart263/examples/voices/slamina/))
+#### Activity
 
-### Exercise
-* **Complete** [Exercise 2: Slamina New Game+](../exercises/slamina-new-game-plus.md) (due the night of class)
+### [Examples](../examples/#voices)
 
-## [Examples](../examples/#voices)
 Click through for examples of the topics covered in this section
 
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Thoughts about return to in-person classes (February 3 for Thursday section, February 8 for Tuesday section)
-* [Project 1: A Night at the Movies](../projects/project1/README.md) (ongoing)
-* Review of the week's material + Q&A
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
+### Classroom
 
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on [Exercise 2: Slamina New Game+](../exercises/slamina-new-game-plus.md) (due the night of class)
-* Work on [Project 1: A Night at the Movies](../projects/project1/README.md)
-* Start work on next week's material
+- Q&A / Live coding
+- Next week: [Voices 2](#voices-2)
+- Next week: [Speech Jam](../projects/speech-jam/README.md) is due
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
 
-## Homework
-* Work on next week's material
-* [Project 1: A Night at the Movies](../projects/project1/README.md)
+## Studio
+
+- Instructor and TA available to help
 
 ---
 
-# Data
+## Voices 2
 
-Week of 31 January 2022
+Week of 5 February 2024
 
-## Objectives
-- Understanding the JSON format
-- Playing with JSON data
-- Saving and loading data in the browser
+### Objectives
 
-## Template
-- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
+### Template
 
-## Before class
+- [Template p5 Project](https://pippinbarr.com/cart263/templates/template-p5-project.zip)
 
-### Topics
+### Before class
 
-#### **JSON**
-* **Watch** [4.1. JSON](https://youtu.be/po6d5FY9jFI) and **read** the [notes](../topics/data/json.md).
-* References
-  * [JSON Homepage](https://www.json.org/json-en.html)
+- Work with the [Voices learning materials](../topics/voices/README.md)
 
-#### **Web Storage API**
-* **Watch** [4.2. Web Storage API](https://youtu.be/6KsC13w7yf4) and **read** the [notes](../topics/data/web-storage-api.md).
-* References
-  * [Web Storage API Documentation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+### Classroom
 
-### Activity
-* **Complete** [Activity: Spy Profile Generator](../activities/spy-profile-generator.md) (**Watch** [4.3. Activity: Spy Profile Generator](https://youtu.be/0HAZGpVUdRI) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/data/spy-profile-generator/), [Online](https://pippinbarr.github.io/cart263/examples/data/spy-profile-generator/))
+- Q&A / Live coding
+- Tonight: [Speech Jam](../projects/speech-jam/README.md) is due!
+- Next week: [AI 1](#ai-1)
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
 
-### Exercise
-* **Complete** [Exercise 3: Spy Profile Generator++](../exercises/spy-profile-generator-plus-plus.md) (due the night of class)
+### Studio
 
-## [Examples](../examples/#data)
-Click through for examples of the topics covered in this section
-
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Thoughts about return to in-person classes (February 3 for Thursday section, February 8 for Tuesday section)
-* Workflow in the CDA labs (Thursday section)
-* Review + Q&A
-* [Project 1: A Night at the Movies](../projects/project1/README.md)
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
-
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on Exercise
-* Start work on next week's material
-
-## Homework
-* Continue work on next week's material
-* [Project 1: A Night at the Movies](../projects/project1/README.md)
-
+- Instructor and TA available to help
 
 ---
 
-# AI
+## AI 1
 
-Week of 7 February 2022
+Week of 12 February 2024
 
-## Objectives
+### Objectives
+
 - Playing with ml5.js and Machine Learning
 
-## Template
-- [Template p5 Project](https://pippinbarr.github.io/cart263/templates/template-p5-project.zip)
+### Template
 
-## Before class
+- [Template p5 Project](https://pippinbarr.com/cart263/templates/template-p5-project.zip)
 
-### Topics
+### Before class
 
-#### **ml5.js** (Machine Learning)
-* **Watch** [5.1. Introducing ml5.js](https://youtu.be/9OeGm15qHTE) and **read** the [notes](../topics/ai/introducing-ml5js.md)
-* **Watch** [5.2. ml5.js: ObjectDetector](https://youtu.be/L3pek0nNpK8) and **read** the [notes](../topics/ai/ml5js-object-detector.md)
-* **Watch** [5.3. ml5.js: Handpose](https://youtu.be/A2yFBDBq9UY) and **read** the [notes](../topics/ai/ml5js-handpose.md)
-* (Optional) **Follow** the the [Getting Started](https://teachablemachine.withgoogle.com/train) process of Teachable Machine and connect the results to ml5.js by using the p5.js download option
-* References
-  * [ml5.js Homepage](https://ml5js.org/)
-  * [ml5.js Reference](https://learn.ml5js.org/#/reference/index) (API)
-  * [Dan Schiffman's introduction to ml5.js](https://www.youtube.com/watch?v=jmznx0Q1fP0)
-  * [Teachable Machine](https://teachablemachine.withgoogle.com/) from Google
-  * [Coded Bias](https://concordiauniversity.on.worldcat.org/oclc/1200171382) (a documentary about bias in machine learning)
+- Work with the [ml5.js learning materials](../topics/ai/README.md)
+  - **NOTE**: You can spread this as you wish across this week and next week
 
-### Activity
-* **Complete** [Activity: Bubble Popper](../activities/bubble-popper.md) (**Watch** [5.4. Activity: Bubble Popper](https://youtu.be/zx0pNnoHp4Y) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/ai/bubble-popper/), [Online](https://pippinbarr.github.io/cart263/examples/ai/bubble-popper/))
+### Classroom
 
-### Exercise
-* **Complete** [Exercise 4: Bubble Popper++](../exercises/bubble-popper-plus-plus.md) (due the night of class)
+- Q&A / Live coding
+- Next week: [AI 2](#ai-2)
+- Next week: [AI Jam](../projects/ai-jam/README.md) is due
+- Speech Jam Demos!
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
 
-## [Examples](../examples/#ai)
-Click through for examples of the topics covered in this section
+## Studio
 
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* [Project 1: A Night at the Movies](../projects/project1/README.md) due dates flexed
-* Workflow in the CDA labs (Tuesday section)
-* Review + Q+A
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
-
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on Exercise
-* Work on Project
-
-## Homework
-* [Project 1: A Night at the Movies](../projects/project1/README.md)
+- Instructor and TA available to help
 
 ---
 
-# Project 1 studio
+## AI 2
 
-Week of 14 February 2022
+Week of 19 February 2024
 
-## Objectives
-* Work on [Project 1: A Night at the Movies](../projects/project1/README.md)
+### Objectives
 
-## Before class
-* Work on [Project 1: A Night at the Movies](../projects/project1/README.md)
+### Before class
 
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Review + Q+A
-* [Project 1: A Night at the Movies](../projects/project1/README.md)
-* [Project 2: Anything](../projects/project2/README.md)
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
+- Work with the [ml5.js learning materials](../topics/ai/README.md)
 
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on [Project 1: A Night at the Movies](../projects/project1/README.md)
-* Start work on next week's material
+### Classroom
 
-## Submit [Project 1: A Night at the Movies](../projects/project1/README.md)
+- Q&A / Live coding
+- Tonight: [AI Jam](../projects/ai-jam/README.md) is due tonight!
+- Next week: Reading week!
+- The week after: [Game Engine 1](#game-engine-1)
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
 
-## Homework
-* Start on [Project 2: Anything](../projects/project2/README.md)
+### Studio
+
+- Instructor and TA available to help
 
 ---
 
-# The Webpage
+## Reading week
 
-Week of 21 February 2022
-
-## Objectives
-- Understanding HTML and CSS
-- Understanding the DOM (Document Object Model)
-
-## Template
-- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
-
-## Before class
-
-### Topics
-
-**Follow along** with the Plain JavaScript Template [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip).
-
-#### HTML
-* (Optional) **Watch** [6.1. HTML Overview](https://youtu.be/9Di3KTMWI3g) and **read** the [notes](../topics/the-webpage/html-overview.md)
-* References
-  * [HTML Documentation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML)
-  * [freeCodeCamp Introduction to Basic HTML & HTML5](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/)
-  * [codecademy Learn HTML](https://www.codecademy.com/learn/learn-html)
-
-#### CSS
-* (Optional) **Watch** [6.2. CSS Overview](https://youtu.be/849hVdZQVsQ) and **read** the [notes](../topics/the-webpage/css-overview.md)
-* References
-  * [CSS Documentation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  * [freeCodeCamp Introduction to Basic CSS](https://www.freecodecamp.org/learn/responsive-web-design/basic-css/)
-  * [codecademy Learn CSS](https://www.codecademy.com/learn/learn-css)
-
-#### The DOM (Document Object Model)
-* **Watch** [6.3. DOM Overview](https://youtu.be/zajq8JthHyw) and **read** the [notes](../topics/the-webpage/dom-overview.md)
-* **Watch** [6.4. DOM Events](https://youtu.be/jPCzpDOg8Ts) and **read** the [notes](../topics/the-webpage/dom-events.md)
-* **Watch** [6.5. DOM Form Input](https://youtu.be/JmdN-mvMaLI) and **read** the [notes](../topics/the-webpage/dom-form-input.md)
-* References
-  * [DOM Documentation from Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-
-### Activity
-* **Complete** [Activity: Haiku Generator](../activities/haiku-generator.md) (**Watch** [6.6. Activity: Haiku Generator](https://youtu.be/AiuTJMhJhKA) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/the-webpage/haiku-generator/), [Online](https://pippinbarr.github.io/cart263/examples/the-webpage/haiku-generator/))
-
-### Exercise
-* **Complete** [Exercise 5: Haiku Generator++](../exercises/haiku-generator-plus-plus.md) (due the night of class)
-
-## [Examples](../examples/#the-webpage)
-Click through for examples of the topics covered in this section
-
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Review + Q+A
-* Project 2
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
-
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on Exercise
-* Work on Project
-* Start work on next week's material
-
-## Homework
-* Continue work on next week's material
-* Project 2
-
+Week of 26 February 2024
 
 ---
 
-# Reading week
+## Game Engine 1
 
-Week of 28 February 2022
+Week of 4 March 2024
 
----
+### Objectives
 
-# jQuery
-
-Week of 7 March 2022
-
-## Objectives
-- Learning to use jQuery
-
-## Template
-- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
-
-## Before class
-
-### Topics
-
-**Follow along** with the Plain JavaScript Template [Source](https://www.github.com/pippinbarr/cart263/tree/master/templates/plain-javascript-project) [.zip](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip).
-
-#### jQuery
-* **Watch** [7.1. jQuery Overview](https://youtu.be/cwITjOUZx3I) and **read** the [notes](../topics/jquery/jquery-overview.md)
-* **Watch** [7.2. jQuery Events](https://youtu.be/0ljECNCfPHE) and **read** the [notes](../topics/jquery/jquery-events.md)
-* **Watch** [7.3. jQuery Form Input](https://youtu.be/Kw2RqSAm2Ao) and **read** the [notes](../topics/jquery/jquery-form-input.md)
-* **Watch** [7.4. jQuery Extras](https://youtu.be/LeDeKIqK7o8) and **read** the [notes](../topics/jquery/jquery-extras.md)
-* References
-  * [jQuery Homepage](https://jquery.com/)
-  * [jQuery API](https://api.jquery.com/)
-  * [JQuery Learning Center](https://learn.jquery.com/)
-
-### Activity
-* **Complete** [Activity: Raving Redactionist](../activities/raving-redactionist.md) (**Watch** [7.5. Activity: Raving Redactionist](https://youtu.be/FAmrnLmfP3U) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/jquery/raving-redactionist/), [Online](https://pippinbarr.github.io/cart263/examples/jquery/raving-redactionist/))
-
-### Exercise
-* **Complete** [Exercise 6: Raving Redactionist++](../exercises/raving-redactionist-plus-plus.md) (due the night of class)
-
-## [Examples](../examples/#jquery)
-Click through for examples of the topics covered in this section
-
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Review + Q+A
-* [Project 2: Anything](../projects/project2/README.md)
-  * [Example final projects from 2020](../projects/project2/README.md#example-final-projects-from-2020)
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
-
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on Exercise
-* Work on Project
-* Start work on next week's material
-
-## Homework
-* Continue work on next week's material
-* [Project 2: Anything](../projects/project2/README.md)
-
----
-
-# jQuery UI
-
-Week of 14 March 2022
-
-## Objectives
-- Learning to use jQuery UI
-- Using form input in a program
-
-## Template
-- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
-
-## Before class
-
-### Topics
-
-#### jQuery UI
-* **Watch** [8.1. jQuery UI Overview](https://youtu.be/rIcb5sgDFrU) and **read** the [notes](../topics/jquery-ui/jquery-ui-overview.md)
-* **Watch** [8.2. jQuery UI Interactions](https://youtu.be/dPptjfKvOWs) and **read** the [notes](../topics/jquery-ui/jquery-ui-interactions.md)
-* **Watch** [8.3. jQuery UI Effects](https://youtu.be/3xRwwLgTpo0) and **read** the [notes](../topics/jquery-ui/jquery-ui-effects.md)
-* **Watch** [8.4. jQuery UI Widgets](https://youtu.be/KYTyCV1C918) and **read** the [notes](../topics/jquery-ui/jquery-ui-widgets.md)
-* References
-  * [jQuery UI Homepage](https://jqueryui.com/)
-  * [jQuery UI Demos](https://jqueryui.com/demos/)
-  * [jQuery UI API](https://api.jqueryui.com/)
-
-### Activity
-* **Complete** [Activity: Code Taker](../activities/code-taker.md) (**Watch** [8.5. Activity: Code Taker](https://youtu.be/aNMHZy5Z8i8) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/jquery-ui/code-taker/), [Online](https://pippinbarr.github.io/cart263/examples/jquery-ui/code-taker/))
-
-### Exercise
-* **Complete** [Exercise 7: Code Taker++](../exercises/code-taker-plus-plus.md) (due the night of class)
-
-## [Examples](../examples/#jquery-ui)
-Click through for examples of the topics covered in this section
-
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Review + Q+A
-* [Project 2: Anything](../projects/project2/README.md)
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
-
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on Exercise
-* Work on Project
-* Start work on next week's material
-
-## Homework
-* Continue work on next week's material
-* [Project 2: Anything](../projects/project2/README.md)
-
----
-
-# Game Engine
-
-Week of 21 March 2022
-
-## Objectives
 - Learning the structure of Phaser
 - Using Phaser to make simple game structures
 
-## Template
-- [Template Plain JavaScript Project](https://pippinbarr.github.io/cart263/templates/plain-javascript-project.zip)
+### Template
 
-## Before class
+- [Template Plain JavaScript Project](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)
 
-### Topics
+### Before class
 
-#### Phaser 3
-* **Watch** [1. Phaser 3 Overview](https://youtu.be/e0aNwUzvoAQ) and **read** the [notes](../topics/game-engine/phaser-3-overview.md)
-* **Watch** [2. Phaser 3 Setup](https://youtu.be/b3T7XxAn_lE) and **read** the [notes](../topics/game-engine/phaser-3-setup.md)
-* **Watch** [3. Phaser 3 Sprites](https://youtu.be/pDiG0q1HHug) and **read** the [notes](../topics/game-engine/phaser-3-sprites.md)
-* **Watch** [4. Phaser 3 Physics and Movement](https://youtu.be/tcau0o7g1MQ) and **read** the [notes](../topics/game-engine/phaser-3-physics-and-movement.md)
-* **Watch** [5. Phaser 3 Physics and Collisions](https://youtu.be/NOeh5LdFvPc) and **read** the [notes](../topics/game-engine/phaser-3-physics-and-collisions.md)
-* References
-  * [Phaser 3 Homepage](https://phaser.io/)
-  * [Phaser 3 API Documentation](https://photonstorm.github.io/phaser3-docs/)
-  * [Phaser 3 Examples](https://phaser.io/examples)
-  * [Phaser 3 Tutorials](https://phaser.io/news/category/tutorial)
+- Work with the [Game Engine learning materials](../topics/game-engine/README.md)
+  - **NOTE**: You can spread this as you wish across this week and next week
 
-### Activity
-* **Complete** [Activity: Desperately Seeking Sadness](../activities/desperately-seeking-sadness.md) (**Watch** [6. Activity: Desperately Seeking Sadness](https://youtu.be/AJaFQcQuXrw) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/game-engine/desperately-seeking-sadness/), [Online](https://pippinbarr.github.io/cart263/examples/game-engine/desperately-seeking-sadness/))
+### Classroom
 
-### Exercise
-* **Complete** [Exercise 8: Desperately Seeking Sadness++](../exercises/desperately-seeking-sadness-plus-plus.md) (due the night of class)
+- Q&A / Live coding
+- Next week: [Game Engine 2](#game-engine-2)
+- Next week: [Game Engine Jam](../projects/game-engine-jam/README.md) is due!
+- AI Jam Demos!
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
 
-## [Examples](../examples/#game-engine)
+### Studio
+
+- Instructor and TA available to help
+
+---
+
+## Game Engine 2
+
+Week of 11 March 2024
+
+### Objectives
+
+### Template
+
+- [Template Plain JavaScript Project](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)
+
+### Before class
+
+- Work with the [Game Engine learning materials](../topics/game-engine/README.md)
+
+### [Examples](../examples/#game-engine)
+
 Click through for examples of the topics covered in this section
 
-## Classroom (in Discord classroom channels at 13:30 on the day of class)
-* Review + Q+A
-* [Project 2: Anything](../projects/project2/README.md)
-* The [C-LAB](https://clab.concordia.ca/) is there to help you
+### Classroom
 
-## Studio (in Discord studio channels after classroom period)
-* Instructor and TA available to help
-* Work on Exercise
-* Work on Project
+- Q&A / Live coding
+- Tonight: [Game Engine Jam](../projects/game-engine-jam/README.md) is due!
+- Next week: [The Webpage](#the-webpage)
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
 
-## Homework
-* [Project 2: Anything](../projects/project2/README.md)
+### Studio
+
+- Instructor and TA available to help
 
 ---
 
-# Project 2 studio
+## The Webpage
 
-Week of 28 March 2022
+Week of 18 March 2024
 
-## Objectives
-- Working on Project 2
+### Objectives
+
+- Understanding HTML and CSS
+- Understanding the DOM (Document Object Model)
+
+### Template
+
+- [Template Plain JavaScript Project](https://pippinbarr.com/cart263/templates/plain-javascript-project.zip)
+
+### Before class
+
+- Work with the [The Webpage learning materials](../topics/the-webpage/README.md)
+
+### Classroom
+
+- Q&A / Live coding
+- From now on: [Final Project](../projects/final-project/README.md) is out main concern
+- Next week: [Final Project Prototype and Proposal](../projects/final-project/README.md) is due!
+- Game Engine Jam Demos!
+- The [C-LAB](https://clab.concordia.ca/) is there to help you
+
+### Studio
+
+- Instructor and TA available to help
 
 ---
 
-# Project 2 studio
+## Final Project 1
 
-Week of 4 April 2022
+Week of 25 March 2024
 
-## Objectives
-- Working on Project 2
+### Objectives
+
+- Finishing up proposal and prototype for final project
+- Working on the final project
 
 ---
 
-# Project 2 studio
+## Final Project 2
 
-Week of 11 April 2022
+Week of 1 April 2024
 
-## Objectives
-- Working on Project 2
+### Objectives
+
+- Working on the final project
+
+---
+
+## Final Project 3
+
+Week of 8 April 2024
+
+### Objectives
+
+- Working on the final project
 
 ---

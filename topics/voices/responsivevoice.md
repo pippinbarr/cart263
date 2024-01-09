@@ -107,7 +107,7 @@ The documentation style isn't the absolute best, but it's not bad and not dissim
 
 #### Function signature
 
-```
+```javascript
 speak(string text, [string voice], [object parameters])
 ```
 
@@ -193,7 +193,7 @@ However, now it's time to get a project running and to start trying this thing o
 
 If you run the program and look in the console, you should see the message
 
-```
+```text
 ResponsiveVoice r1.7.0
 ```
 
@@ -225,7 +225,7 @@ Well, that's nice. Depending on which browser you're using, you may hear differe
 
 ---
 
-## Experiment!
+## Experiment
 
 It's a good idea to **experiment** with the possibilities of **any** given function or parameter that a library provides - you might find something interesting! So in the spirit of experimentation, what can we play around with here? Just the text right?
 
@@ -434,7 +434,7 @@ function mousePressed() {
 
 ---
 
-## Hey presto!
+## Hey presto
 
 Unlike huge libraries like p5.js, ResponsiveVoice isn't really all that complex and so there isn't that much to learn! This sort of library is more modular and specific - it does one job and it does it quite well.
 
@@ -442,4 +442,4 @@ What's important, then, is **what you do with it**. Experimenting with the **tec
 
 ---
 
-# }
+}
