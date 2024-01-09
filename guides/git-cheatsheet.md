@@ -73,7 +73,7 @@ Click the push button at the top right.
 
 #### VS Code
 
-Click the push button at the bottom right.
+Click the `Sync Changes` button that appears after committing.
 
 #### Command line
 
@@ -91,9 +91,9 @@ If you just did some amount of work that sucks and you want to reset to where yo
 
 Right click the file you want to discard changes from in the Changes tab and choose "Discard changes"
 
-#### Atom
+#### VS Code
 
-First unstaging it if necessary, right click the file you want to discard changes from in the "Unstaged Changes" pane and choose "Discard changes".
+Right click the file you want to discard changes from in the Git panel and choose "Discard Changes".
 
 #### Command line
 
@@ -107,7 +107,7 @@ Sometimes you want to get undo an entire commit in the history. You can only rea
 
 You can't really do this on GitHub Desktop.
 
-#### Atom
+#### VS Code
 
 In the History listed at the bottom right, click the "Undo" button next to the commit.
 
