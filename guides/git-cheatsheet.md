@@ -73,7 +73,7 @@ Click the push button at the top right.
 
 #### VS Code
 
-Click the push button at the bottom right.
+Click the `Sync Changes` button that appears after committing.
 
 #### Command line
 
