@@ -15,7 +15,7 @@ We will create a webpage that displays a haiku where each line is chosen at rand
 ## Create a new project
 
 1. Start a plain javascript template project in your `activities` folder and name it `haiku-generator` ([plain-javascript-project.zip](../templates/plain-javascript-project.zip))
-2. Open the project folder in Atom to start work
+2. Open the project folder in VS Code to start work
 3. Set the title of the project in `index.html` to something appropriate like `Haiku Generator`
 4. Commit the changes to your repository with a commit message
 
@@ -72,8 +72,9 @@ Now we're ready to create the haiku, we should have each line in its own variabl
 #### Write a `random()` function
 
 1. Define a function at the bottom of your script called `random()` that takes one parameter called `array` (the array to choose a random element from), in it
-  * Declare a variable `index` and assign a random index into the array provided (the formula for this is `Math.floor(Math.random() * array.length)`)
-  * Return the element at position `index` in the `array`
+
+* Declare a variable `index` and assign a random index into the array provided (the formula for this is `Math.floor(Math.random() * array.length)`)
+* Return the element at position `index` in the `array`
 
 #### Choose random lines
 
@@ -138,8 +139,9 @@ We want to channel [Raymond Queneau](https://en.wikipedia.org/wiki/Raymond_Quene
 ### Define a function for handling a click on a line
 
 1. Define a function called `lineClicked()` at the bottom of your program, it should:
-  * Receive a parameter called `event` (like any callback for `addEventListener()`)
-  * Call `setNewLine()` and pass through the `event.target` element (the element that was clicked)
+
+* Receive a parameter called `event` (like any callback for `addEventListener()`)
+* Call `setNewLine()` and pass through the `event.target` element (the element that was clicked)
 
 ### Using the function in an event listener
 
@@ -160,18 +162,22 @@ In order to be cool it would be nice if a clicked line would fade out, change wh
 We want to edit `lineClicked()` (the event handler for a click on a line) to fade out the line over time. We'll use `requestAnimationFrame()` to do this with the browser's framerate.
 
 Define a function `fadeOut()` that accepts two parameters
+
 * One called `element` (which will receive the element to fade out)
 * One called `opacity` (which will receive the current opacity of that element)
 
 It should:
+
 1. Reduce the `opacity` number by a small amount (perhaps `0.01`)
 2. Set the `opacity` style property of `element` to the new `opacity` value so that it actually changes
 3. Use an `if` statement to check if `opacity` is greater than `0`
-  * If it is, include another call to `requestAnimationFrame()` with an anonymous function as an argument which calls `fadeOut()` with `element` and `opacity` as arguments, to keep fading
-    * Note the use of an anonymous function here is key because it lets us pass **arguments** to the `fadeIn()` function!
-  * If it isn't, do nothing for now, just write an empty `else` statement
+
+* If it is, include another call to `requestAnimationFrame()` with an anonymous function as an argument which calls `fadeOut()` with `element` and `opacity` as arguments, to keep fading
+  * Note the use of an anonymous function here is key because it lets us pass **arguments** to the `fadeIn()` function!
+* If it isn't, do nothing for now, just write an empty `else` statement
 
 In `lineClicked()`:
+
 1. Replace the call to `setNewLine()` with a call to `fadeOut`, providing the `event.target` and `1` as arguments
 
 If we run this version of the program we should see each line fade out when we click on it. And then they're just gone. The amazing disappearing haiku! Poignant! Sand mandala! Sad mandala!
@@ -181,21 +187,26 @@ If we run this version of the program we should see each line fade out when we c
 When the a line has faded out we want to switch the text of the line, and then fade it back in. This is a pretty similar process to the above...
 
 Define a function `fadeIn()` (yes, a lot of this will be the same as `fadeOut()`) that accepts two parameters:
+
 * One called `element` (which will receive the element to fade out)
 * One called `opacity` (which will receive the current opacity of that element)
 
 It should:
+
 1. Increase the `opacity` by a small amount (perhaps `0.01`)
 2. Set the `opacity` style property of `element` to the new `opacity` value
 3. Use an `if` statement to check if `opacity` is less than `1`
-  * If is, call to `requestAnimationFrame()` with an anonymous function as an argument which calls `fadeIn()` with `element` and `opacity` as arguments (to keep the fade going)
-    * Note the use of an anonymous function here is again key because it lets us pass **arguments** to the `fadeIn()` function!
-  * If it isn't, do nothing!
+
+* If is, call to `requestAnimationFrame()` with an anonymous function as an argument which calls `fadeIn()` with `element` and `opacity` as arguments (to keep the fade going)
+  * Note the use of an anonymous function here is again key because it lets us pass **arguments** to the `fadeIn()` function!
+* If it isn't, do nothing!
 
 In `fadeOut()`:
+
 1. In the part of the `if` statement that runs if the `opacity` has reached `0` add:
-  * Call `setNewLine()` with the `element` as an argument to switch the line (the same line we deleted earlier)
-  * Call `fadeIn()`, providing `element` and `0` as arguments (same idea as above, except fading in from `0`)
+
+* Call `setNewLine()` with the `element` as an argument to switch the line (the same line we deleted earlier)
+* Call `fadeIn()`, providing `element` and `0` as arguments (same idea as above, except fading in from `0`)
 
 Now if we run the program, lines should fade out when clicked, then fade back in with a new line! It's alive!
 
@@ -210,7 +221,7 @@ As always, there are probably improvements that can be made. Consider
 
 ---
 
-## The future!
+## The future
 
 We can imagine all kinds of improvements and changes!
 

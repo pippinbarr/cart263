@@ -56,7 +56,7 @@ Week of 15 January 2024
   - Follow the [Course Software Guide](../guides/course-software.md) guide
   - Set up your `cart263` course repository on GitHub (follow the [GitHub Guide](../guides/github-repository.md)) if needed)
   - Review the [Version Control Guide](../guides/github-desktop.md) if needed
-  - Review the [Git Cheatsheet](../guides/git-cheatsheet.md) for a condensed review of version control using GitHub Desktop or Atom or the command line
+  - Review the [Git Cheatsheet](../guides/git-cheatsheet.md) for a condensed review of version control using GitHub Desktop or VS Code or the command line
 - **Get** pumped!?
 
 ### Classroom

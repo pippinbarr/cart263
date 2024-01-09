@@ -16,7 +16,7 @@ When the user first loads our program it will ask for their name in a text promp
 ## Create a new project
 
 1. Start a p5 template project in your `activities` folder and name it `spy-profile-generator` ([template-p5-project.zip](../templates/template-p5-project.zip))
-2. Open the project folder in Atom to start work
+2. Open the project folder in VS Code to start work
 3. Set the title of the project in `index.html` to something appropriate like `** TOP SECRET **`
 4. Commit the changes to your repository with a commit message
 
@@ -45,8 +45,9 @@ Now let's ask the user for their name, we should do this in `setup()` so it happ
 
 1. Create a canvas of your preferred dimensions (the window width and height is reasonable)
 2. Assign the return value of a `prompt()` function that asks the user's name to the `name` property of `spyProfile`
-  * `prompt()` requires at least one argument, which is the prompt text as a string
-  * You can add a second argument that provides a default option that will be prefilled
+
+* `prompt()` requires at least one argument, which is the prompt text as a string
+* You can add a second argument that provides a default option that will be prefilled
 
 Finally, let's display the current state of the profile, which will include our default values, but with the name the user entered as well. We'll do this in `draw()`:
 
@@ -95,19 +96,23 @@ Now that we've been able to generate a profile, the next step is to **save** the
 First let's save the generated profile. At the end of the `generateSpyProfile()` function:
 
 1. Call the `setItem()` method of `localStorage`.
-  * For a **key name** use something specific like "spy-profile-data".
-  * For the **value** to save, use the `spyProfile` object.
-  * Remember to use `JSON.stringify()` on the object first.
+
+* For a **key name** use something specific like "spy-profile-data".
+* For the **value** to save, use the `spyProfile` object.
+* Remember to use `JSON.stringify()` on the object first.
 
 Now, when a profile is generated it will be saved to the user's browser. To make use of it, though, we now need to check if there is **already** a profile available before we ask for the name and generate a new one. So, back in `setup()` after creating the canvas:
 
 1. Remove the call to `generateProfile()`
 2. Declare a `data` variable and try to load profile data into it with the `getItem()` method of `localStorage`
-  * For the **key** use the key name you used when saving
-  * Remember to use `JSON.parse()` on the result to convert it back to an object
+
+* For the **key** use the key name you used when saving
+* Remember to use `JSON.parse()` on the result to convert it back to an object
+
 3. Write an `if` statement to check if there is data in the `data` variable
-  * If there is then assign the properties in the `data` object across to the `spyProfile` object
-  * If there is not, then call the `generateProfile()` function
+
+* If there is then assign the properties in the `data` object across to the `spyProfile` object
+* If there is not, then call the `generateProfile()` function
 
 Now, the next time we run the program it should save the profile generated, and the **next** times we load it, we should just see the saved profile each time!
 
@@ -121,8 +126,9 @@ We'll need to do this **after** we've successfully loaded a profile, so it'll go
 
 1. Declare a variable called `password` and assign the return value of a `prompt()` function that asks for the password
 2. Write an `if` statement that compares the `password` the user entered with the `password` property in the loaded data
-  * If it matches, assign all the data's propreties across (just move that code into the `if` statement)
-  * If it doesn't, do nothing (so that the profile will have the default censored values)
+
+* If it matches, assign all the data's propreties across (just move that code into the `if` statement)
+* If it doesn't, do nothing (so that the profile will have the default censored values)
 
 Now when the user loads the page if they already have a profile they will be asked their profile. If they get it right, they see the profile. If not, they don't! Ha!
 
@@ -139,7 +145,7 @@ As always, there are improvements that can be made. Consider
 
 ---
 
-## Done!
+## Done
 
 As with any simple program, we can imagine all kinds of improvements and changes?
 

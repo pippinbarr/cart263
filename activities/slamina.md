@@ -1,22 +1,25 @@
 # Activity: Slamina {
 
 ## Objectives
+
 * Using ResponsiveVoice!
 * Using annyang!!
 
 ---
 
 ## The idea
+
 The program will speak the name of a common animal backwards and the user will have to say (with their voice) what they think it is in the form "I think it is **x**." If they get it right, their guess will be displayed in green, if they get it wrong, their guess will be displayed in red.
 
 ---
 
 ## Create a new project
+
 1. Download [template-p5-project.zip](../templates/template-p5-project.zip) and unzip it
 2. Rename the folder to `slamina`
 3. Move the folder into the `activities` folder in your repository folder (create it if necessary)
 4. Commit the changes to your repository with a commit message
-5. Open the project folder in Atom to start work
+5. Open the project folder in VS Code to start work
 
 ---
 
@@ -33,7 +36,7 @@ Here's a plan:
 
 ---
 
-## 1. Animal names!
+## 1. Animal names
 
 When we work on a project like this, one thing we need is nicely formatted data (the animal names) that we can easily use in our program. Fortunately for us, Darius Kazemi (a wonderful creative programmer worth looking up) has a [corpora](https://github.com/dariusk/corpora) project that contains all kinds of lists in easily accessible form. We'll use an [animal list](https://github.com/dariusk/corpora/blob/master/data/animals/common.json) he provides.
 
@@ -78,11 +81,14 @@ function reverseString(string) {
 Finally, we need to trigger ResponsiveVoice to say the reversed animal name...
 
 1. Include the ResponsiveVoice library in your project
-  * Place the script tag for the library along with your API key in `index.html` (if you can't remember it, go to [responsivevoice.org](http://responsivevoice.org/) and sign into your App Dashboard to find it)
+
+* Place the script tag for the library along with your API key in `index.html` (if you can't remember it, go to [responsivevoice.org](http://responsivevoice.org/) and sign into your App Dashboard to find it)
+
 2. Define a `mousePressed()` function and in it
-  * Assign a random animal name from the `animals` array to `currentAnimal` (remember you can use p5's `random()` function for this)
-  * Declare a variable `reverseAnimal` and assign the reverse of `currentAnimal` to it by using `reverseString(currentAnimal)`
-  * Use ResponsiveVoice to speak `reverseAnimal`
+
+* Assign a random animal name from the `animals` array to `currentAnimal` (remember you can use p5's `random()` function for this)
+* Declare a variable `reverseAnimal` and assign the reverse of `currentAnimal` to it by using `reverseString(currentAnimal)`
+* Use ResponsiveVoice to speak `reverseAnimal`
 
 Now when the program starts, if the user clicks, they will hear the name of a random animal backwards.
 
@@ -95,25 +101,33 @@ We want annyang! to listen to the user and hear when they make a guess. To do th
 First we want to set up annyang...
 
 In `index.html`
+
 1. Include the annyang! library in your project
-  * Place the script tag for the library along in `index.html` (if you can't remember it go to [https://www.talater.com/annyang/](https://www.talater.com/annyang/) and find either download the file or use the hosted version of the library)
+
+* Place the script tag for the library along in `index.html` (if you can't remember it go to [https://www.talater.com/annyang/](https://www.talater.com/annyang/) and find either download the file or use the hosted version of the library)
 
 In `setup()`:
+
 1. Write an `if` statement that checks if annyang is available and inside it:
-  * Declare a `commands` variable and include a command `'I think is it *animal'` that calls a function called `guessAnimal` (we will write that function soon!)
-  * Add the commands to annyang using its `addCommands()` method
-  * Start annyang using its `start()` method
+
+* Declare a `commands` variable and include a command `'I think is it *animal'` that calls a function called `guessAnimal` (we will write that function soon!)
+* Add the commands to annyang using its `addCommands()` method
+* Start annyang using its `start()` method
+
 2. Set up some default text styling (perhaps a large text size, bold, and centering)
 
 Now we need to handle guessing...
 
 At the top of the program:
+
 1. We need somewhere to store the user's guess, so declare a variable called `currentAnswer` containing an empty string (they haven't guessed yet!)
 
 Below the `mousePressed()` function:
+
 1. Define a function called `guessAnimal()` that has a single parameter `animal` (this will be called by annyang when it gears a guess). In it:
-  * Assign the guess in `animal` to the `currentAnswer` variable (use `.toLowerCase()` on `animal` to convert it to a lowercase version when assigning it so that it matches the style of the `animals` list)
-  * Use `console.log()` to print out `currentAnswer` so you can see what it is
+
+* Assign the guess in `animal` to the `currentAnswer` variable (use `.toLowerCase()` on `animal` to convert it to a lowercase version when assigning it so that it matches the style of the `animals` list)
+* Use `console.log()` to print out `currentAnswer` so you can see what it is
 
 Now if the user starts the program and clicks, they should be able to say "I think it is dog" (for example) and you should see "dog" in the console
 
@@ -124,10 +138,13 @@ Now if the user starts the program and clicks, they should be able to say "I thi
 Finally, we want to display the user's guess to the user themselves so they can understand whether they were right or wrong!
 
 In `draw()`:
+
 1. Set a background color
 2. Write an `if` statement that checks if the current answer is correct (does it equal the current animal?)
-  * If it does, set the fill (for the text) to green
-  * It it doesn't, set the fill (for the text) to red
+
+* If it does, set the fill (for the text) to green
+* It it doesn't, set the fill (for the text) to red
+
 3. Display the `currentAnswer` variable as text on the canvas
 
 Now if the user starts the program and clicks, they should be able to say "I think it is dog" (for example) and see the word "dog" appear on the canvas in green (if it's right) or green (if it's wrong). Hey presto! Our guessing game is complete!
@@ -140,7 +157,7 @@ Currently our program works, but there are some places where we could make it ni
 
 ---
 
-## Done!
+## Done
 
 As with any simple program, we can imagine all kinds of improvements and changes?
 

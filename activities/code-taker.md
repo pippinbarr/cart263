@@ -15,7 +15,7 @@ The user is the Tom-Hanks-in-the-Da-Vinci-Code of classic poetry, seeing coded m
 ## Create a new project
 
 1. Start a plain javascript template project in your `activities` folder and name it `code-taker` ([plain-javascript-project.zip](../templates/plain-javascript-project.zip))
-2. Open the project folder in Atom to start work
+2. Open the project folder in VS Code to start work
 3. Set the title of the project in `index.html` to something appropriate like `Code Taker`
 4. Add jQuery to the project by adding the appropriate script tag from a CDN such as [code.jquery.com](https://code.jquery.com) to `index.html`
 5. Add jQuery UI sto the project by adding the appropriate script tag and CSS link from a CDN such as [code.jquery.com](https://code.jquery.com) to `index.html`
@@ -102,7 +102,8 @@ In our `style.css` let's...
 In our `script.js` we need to add this class when the user mouses over a secret so...
 
 1. Select all the elements with a class of `secret` and add a `mouseover` event listener, the handler function should:
-  * Add the `found` class as an animation (specify an animation duration like `500` say)
+
+* Add the `found` class as an animation (specify an animation duration like `500` say)
 
 All going to plan, when we mouse over the secret letters they should animate to red!
 
@@ -131,12 +132,13 @@ So, onwards in `script.js`...
 
 1. Make the answer area droppable by selecting it and using the `.droppable()` method
 2. Add the `drop` option to the `.droppable()` method and provide a function that:
-  * Receives the `event` and `ui` parameters
-  * Creates a `character` variable and assigns the text inside the dragged element (remember `ui.draggable`)
-  * Adds the character to the answer section (you can use `.append()` here most easily)
-  * Stops the dragged element from being draggable (remember the `disable` method for Draggables)
-  * Removes the `found` class from the dragged element (animate the removal)
-  * Disables the mouseover for the dragged element (remember `.off()`)
+
+* Receives the `event` and `ui` parameters
+* Creates a `character` variable and assigns the text inside the dragged element (remember `ui.draggable`)
+* Adds the character to the answer section (you can use `.append()` here most easily)
+* Stops the dragged element from being draggable (remember the `disable` method for Draggables)
+* Removes the `found` class from the dragged element (animate the removal)
+* Disables the mouseover for the dragged element (remember `.off()`)
 
 Quite a lot of action, but now when you drag one of the letters into the answer area the letter should appear in it and should stop being highlighted and interactive in the poem. Lovely.
 
@@ -189,7 +191,7 @@ As always, there are probably improvements that can be made. Consider
 
 ---
 
-## The future!
+## The future
 
 We can imagine all kinds of improvements and changes!
 

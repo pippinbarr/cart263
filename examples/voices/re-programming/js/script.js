@@ -26,7 +26,7 @@ let loves = [
   `programming`,
   `to code`,
   `JavaScript libraries`,
-  `the Atom text editor`,
+  `the VS Code text editor`,
   `Creative Computation`,
   `debugging`
 ];

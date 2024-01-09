@@ -17,7 +17,7 @@ Using hand tracking we turn the user's index finger into a pin on our program's 
 ## Create a new project
 
 1. Start a p5 template project in your `activities` folder and name it `bubble-popper` ([template-p5-project.zip](../templates/template-p5-project.zip))
-2. Open the project folder in Atom to start work
+2. Open the project folder in VS Code to start work
 3. Set the title of the project in `index.html` to something appropriate like `Bubble Popper`
 4. Commit the changes to your repository with a commit message
 
@@ -64,13 +64,16 @@ Let's set up the Handpose model. We want to initialize the model and tell it we 
 
 1. Declare an undefined global `handpose` variable to store the model
 2. In `setup()` assign a new handpose model to `handpose` with three arguments
-  * The `video` variable containing the webcam (the source of detection)
-  * An options object with the `flipHorizontal` property set to true (to make the video a mirror)
-  * An **anonymous** function that does nothing for now to be called when the model's ready
+
+* The `video` variable containing the webcam (the source of detection)
+* An options object with the `flipHorizontal` property set to true (to make the video a mirror)
+* An **anonymous** function that does nothing for now to be called when the model's ready
+
 3. Declare a global `predictions` variable and assign an empty array
 4. In `setup()` create a listener using `.on()` for the "predict" event with an **anonymous** callback function that
-  * assigns the results (passed in as an argument) to the `predictions` array
-  * uses `console.log()` to output the results to the JavaScript console
+
+* assigns the results (passed in as an argument) to the `predictions` array
+* uses `console.log()` to output the results to the JavaScript console
 
 At this point if we run the program we should be able to go into the JavaScript console and, if we hold a hand in front of the webcam, we should see results coming in! Hand detection!
 
@@ -84,10 +87,11 @@ We'll do all this in `draw()` since we're displaying this on the canvas:
 
 1. Fill the background with a color (black?)
 2. Check if the `predictions` array has anything in it (is its length greater than 0?), if so:
-  * Assign the x and y coordinates of the tip of the index finger to variables
-  * Assign the x and y coordinates of the base of the index finger to variables
-  * Display a line between the the coordinates (our pin!)
-  * Display a (red?) circle at the base of the pin (so it looks more like a pin)
+
+* Assign the x and y coordinates of the tip of the index finger to variables
+* Assign the x and y coordinates of the base of the index finger to variables
+* Display a line between the the coordinates (our pin!)
+* Display a (red?) circle at the base of the pin (so it looks more like a pin)
 
 If we run this program we should be able to hold up our hand and see a pin drawn wherever our index finger is!
 
@@ -101,13 +105,16 @@ To make having a pin for a finger more interesting we need something to pop. We'
 
 1. Declare an undefined global `bubble` variable
 2. In `setup()` assign an object literal with properties for `x`, `y`, `size`, `vx`, `vy`
-  * Start the bubble at the bottom of the canvas in a random x position
-  * Give it a size of your choosing
-  * Give it a `vx` of 0 and a **negative** `vy` so it moves upward (`-2`?)
+
+* Start the bubble at the bottom of the canvas in a random x position
+* Give it a size of your choosing
+* Give it a `vx` of 0 and a **negative** `vy` so it moves upward (`-2`?)
+
 3. In `draw()` **after** the predictions check, move and display the bubble using its properties
-  * Change its position properties according to its velocity
-  * Write an `if` statement that check if it has gone off the top of the canvas and move it back to the bottom in a new random x position
-  * Display it as a circle on the canvas according to its position and size
+
+* Change its position properties according to its velocity
+* Write an `if` statement that check if it has gone off the top of the canvas and move it back to the bottom in a new random x position
+* Display it as a circle on the canvas according to its position and size
 
 All going to the plan, when we run the program the bubble moves up the screen serenely and wraps when it hits the top. Right now our finger-pin does nothing because there's no code for that yet...
 
@@ -121,7 +128,8 @@ We'll do this in `draw()` **inside** the predictions check, after we've calculat
 
 1. Calculate the distance from the tip of the index finger to the center of the bubble
 2. Write an `if` statement that checks if this distance means the tip of the pin is inside the bubble (based on the bubble's size)
-  * If it is, reset the bubble to the bottom of the canvas at a random x position
+
+* If it is, reset the bubble to the bottom of the canvas at a random x position
 
 Now when we run the program we should be able to pop the bubble with the pin! We are literally moving our **real** hand around and in the program it's represented as a pin that can pop a bubble. Ridiculous!
 
@@ -137,7 +145,7 @@ As always, there are improvements that can be made. Consider
 
 ---
 
-## Done!
+## Done
 
 As with any simple program, we can imagine all kinds of improvements and changes?
 

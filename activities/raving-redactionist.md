@@ -15,7 +15,7 @@ We will create a webpage of text with some passages "redacted" (covered in black
 ## Create a new project
 
 1. Start a plain javascript template project in your `activities` folder and name it `raving-redactionist` ([plain-javascript-project.zip](../templates/plain-javascript-project.zip))
-2. Open the project folder in Atom to start work
+2. Open the project folder in VS Code to start work
 3. Set the title of the project in `index.html` to something appropriate like `Haiku Generator`
 4. Add jQuery to the project by adding the appropriate script tag from a CDN such as [code.jquery.com](https://code.jquery.com) `index.html`
 5. Commit the changes to your repository with a commit message
@@ -52,13 +52,16 @@ Now we'd like to do some general styling of our webpage as well the very specifi
 
 1. Add a selector for the `secret-document` section and use it to style the overall look of your document. Consider things like `font-family`, `font-size`, margins, etc.
 2. Add a selector for the `redacted` class and use it to style the redacted secrets, you should at least:
-  * Give it a background color of black (`background-color`)
-  * Make it impossible for the user to select (`user-select`)
+
+* Give it a background color of black (`background-color`)
+* Make it impossible for the user to select (`user-select`)
+
 3. Add another selector for a `revealed` class we can use when our program reveals the secret text! It should stand out! It should:
-  * Have a transparent background
-  * Allow the user to select the text
-  * Have colored text (red?)
-  * Have an underline (`text-decoration`)
+
+* Have a transparent background
+* Allow the user to select the text
+* Have colored text (red?)
+* Have an underline (`text-decoration`)
 
 Now when we look at the page our redacted texts are hidden behind black bars censoring them! Perfect. You might want to style one or more of them with the `revealed` class just to see what it looks like, but remember to revert to `redacted` before moving on.
 
@@ -70,11 +73,14 @@ The central idea of the program is that over time the redacted elements of the t
 
 1. At the start of the program, use `setInterval()` to call a function called `revelation()` every 500 milliseconds or so.
 2. Define the `revelation()` function, in it
-  * Select all the currently **redacted** spans and for each one call a function called `attemptReveal()` (use `.each()`)
+
+* Select all the currently **redacted** spans and for each one call a function called `attemptReveal()` (use `.each()`)
+
 3. Define the `attemptReveal()` function, in it
-  * Generate a random number between `0` and `1` (use `Math.random()`)
-  * Check if the random number is less than `0.1` (so there is a 10% chance of this)
-  * If it is:
+
+* Generate a random number between `0` and `1` (use `Math.random()`)
+* Check if the random number is less than `0.1` (so there is a 10% chance of this)
+* If it is:
     1. remove the `redacted` class from the current element (use `$(this)`)
     2. add the `revealed` class to the current element
 
@@ -96,8 +102,9 @@ Back at the top of the program, before the `setInterval()`:
 
 1. Add a `click` event listener to all the `.top-secret` elements on the page which calls a function called `redact()`
 2. Define the `redact()` function, in it:
-  * Remove the `revealed` class from the current element
-  * Add the `redacted` class to the current element
+
+* Remove the `revealed` class from the current element
+* Add the `redacted` class to the current element
 
 Now when a secret is revealed, the user can click on the revealed text and it will be hidden again. The nation is safe! But then it might be revealed again randomly! We are at war! But then you can hide it again, so it's okay. But then...!
 
@@ -113,7 +120,7 @@ As always, there are probably improvements that can be made. Consider
 
 ---
 
-## The future!
+## The future
 
 We can imagine all kinds of improvements and changes!
 

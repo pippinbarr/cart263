@@ -15,7 +15,7 @@ We will create metaphor for how we seek out or are drawn to negative emotions. T
 ## Create a new project
 
 1. Start a plain javascript template project in your `activities` folder and name it `desperately-seeking-sadness` ([plain-javascript-project.zip](../templates/plain-javascript-project.zip))
-2. Open the project folder in Atom to start work
+2. Open the project folder in VS Code to start work
 3. Set the title of the project in `index.html` to something appropriate like `Desperately Seeking Sadness`
 4. Add Phaser 3 to the project by adding the appropriate script tag from the CDN to `index.html`
 6. Commit the changes to your repository with a commit message
@@ -43,20 +43,25 @@ We've gone over this in the associated Phaser 3 lessons, so really the objective
 
 1. Rename `script.js` to `main.js` and change the script tag in `index.html`
 2. Add a `Boot.js` file and define the `Boot` class (extending `Phaser.Scene`), it should have
-  * A `constructor()` that calls the super constructor to set the scene key to `boot`
-  * A `preload()` method that includes a listener for the loading complete event and switches to a scene with the key `play`
-  * A `create()` method
-  * An `update()` method
-3. Add a ` Play.js` file and define the `Play` class (extending `Phaser.Scene`), it should have
-  * A `constructor()` that calls the super constructor to set the scene key to `boot`
-  * A `create()` method
-  * A `update()` method
+
+* A `constructor()` that calls the super constructor to set the scene key to `boot`
+* A `preload()` method that includes a listener for the loading complete event and switches to a scene with the key `play`
+* A `create()` method
+* An `update()` method
+
+3. Add a `Play.js` file and define the `Play` class (extending `Phaser.Scene`), it should have
+
+* A `constructor()` that calls the super constructor to set the scene key to `boot`
+* A `create()` method
+* A `update()` method
+
 4. Add script tags for `Boot.js` and `Play.js` to `index.html`
 5. In `main.js` add the basic configuration and game creation code, make sure you
-  * Set the `type` to `Phaser.AUTO`
-  * Specify dimensions
-  * Include the arcade physics option
-  * Add both the `Boot` and `Play` classes (in that order) to the `scene` property's array
+
+* Set the `type` to `Phaser.AUTO`
+* Specify dimensions
+* Include the arcade physics option
+* Add both the `Boot` and `Play` classes (in that order) to the `scene` property's array
 
 With this done we will see the classic blank black rectangle representing our game's void-like canvas.
 
@@ -101,9 +106,10 @@ We're ready to add the thumbs down sprite the avatar will collect. We've done th
 1. Download an image of the thumbs down emoji, resize it to 32x32, rename it to `thumbs-down.png`, and move it to the `assets/images` folder of your project
 2. In `Boot.js` load the image with a key of `thumbs-down` in the `preload()` method
 3. In `Play.js` create a physics sprite using thumbs down at a random position
-  * Assign a random value between `0` and `this.sys.canvas.width` to a new variable `x`
-  * Assign a random value between `0` and `this.sys.canvas.height` to a new variable `y`
-  * Add a physics sprite to the scene at the `x` and `y` position and using the `thumbs-down` key, assign it to `this.sadness`
+
+* Assign a random value between `0` and `this.sys.canvas.width` to a new variable `x`
+* Assign a random value between `0` and `this.sys.canvas.height` to a new variable `y`
+* Add a physics sprite to the scene at the `x` and `y` position and using the `thumbs-down` key, assign it to `this.sadness`
 
 Now you should see your avatar where you positioned it **and** a thumbs down in a random position.
 
@@ -129,16 +135,19 @@ We'll use the [Thumbs Up Emoji](https://emojipedia.org/thumbs-up/) here. We'll a
 1. Download an image of the thumbs up emoji, resize it to 32x32, rename it to `thumbs-up.png`, and move it to the `assets/images` folder of your project
 2. In `Boot.js` load the image with a key of `thumbs-up` in the `preload()` method
 3. In `Play.js` assign a new a physics group to `this.happiness`, with the following configuration (check out **Group versus Group**)
-  * Set the `key` to `thumbs-up` so the sprites use that image
-  * Set the `quantity` to something like `50` to have multiple sprites
-  * Set `collideWorldBounds` to `true` so they stay on the canvas
-  * Set `bounceX` and `bounceY` to a value between `0` and `1` so the thumbs ups bounce!
-  * Set `dragX` and `dragY` to something like `50` so the thumbs ups slow down over time!
-  * Play around with more options if you wish!
+
+* Set the `key` to `thumbs-up` so the sprites use that image
+* Set the `quantity` to something like `50` to have multiple sprites
+* Set `collideWorldBounds` to `true` so they stay on the canvas
+* Set `bounceX` and `bounceY` to a value between `0` and `1` so the thumbs ups bounce!
+* Set `dragX` and `dragY` to something like `50` so the thumbs ups slow down over time!
+* Play around with more options if you wish!
+
 4. Right now all the thumbs ups end up at position `0,0` which is no good but notice how they position the elements in **Group versus Group** using the `Phaser.Actions.RandomInRectangle()` helper and copy that idea!)
 5. Finally, we want collisions so
-  * Add a collider between the avatar and the happiness group
-  * Add a collider between the happiness group and itself!
+
+* Add a collider between the avatar and the happiness group
+* Add a collider between the happiness group and itself!
 
 Now you should see many thumbs ups on the canvas! If you steer the avatar into them they bounce off it and each other for some pleasing chaos! The metaphor is complete!
 
@@ -154,7 +163,7 @@ As always, there are probably improvements that can be made. Consider
 
 ---
 
-## The future!
+## The future
 
 We can imagine all kinds of improvements and changes!?
 

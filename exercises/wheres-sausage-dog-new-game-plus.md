@@ -1,19 +1,22 @@
 # Exercise 1: Where's Sausage Dog? New Game+ {
 
 #### Grade
+
 - 4% of final grade (see guidelines at bottom)
 - Note: Only your **best five exercises** will count for your final grade
 
 #### Deadlines
+
 - Section A (Tuesdays): 11:59PM, 18 January 2022.
 - Section B (Thursdays): 11:59PM, 20 January 2022.
 
 ---
 
 ## Objectives
+
 * Remembering JavaScript!
-* Remembering p5.js!
-* Enjoying programming!
+- Remembering p5.js!
+- Enjoying programming!
 
 ---
 
@@ -22,24 +25,24 @@
 1. Start a new project by duplicating your sausage dog activity project folder and renaming it `wheres-sausage-dog-new-game-plus` (or something else).
 2. Move this new project folder into your `exercises` folder in your course repository (create the folder if needed)
 3. Commit these changes to your repository with an appropriate message like `Ex: Starting code`
-4. Open the project in Atom and begin!
+4. Open the project in VS Code and begin!
 
 ## Brief
 
 Your objective is to add functionality to the existing *Where's Sausage Dog?* game to make it more fun or more interesting or more strange or something else entirely. Implement **at least three** of the following:
 
-* Change the image set to something else you find entertaining/meaningful
-* Add random rotations to animals when created so they're oriented in different ways
-* Add start and end screens
-* Add the ability to restart the game after you reach the end
-* Add more visual effects when finding the dog (make it bounce around the screen? Change colours? Leave a trail?)
-* Add sound effects to the game (have all the animals make animal sounds randomly? Make the dog bark when you get close to it?)
-* Add behavior to incorrect animals when clicked (make a sound, wiggle, do something else?)
-* Add a hint system to that the dog wiggles a bit if the player is taking too long to find it
-* Add selectable difficulty levels (more animals? smaller? movement?)
-* Add a countdown timer
-* Add multiple levels
-* Choose which animal is being found randomly and tell the player which one they're looking for
+- Change the image set to something else you find entertaining/meaningful
+- Add random rotations to animals when created so they're oriented in different ways
+- Add start and end screens
+- Add the ability to restart the game after you reach the end
+- Add more visual effects when finding the dog (make it bounce around the screen? Change colours? Leave a trail?)
+- Add sound effects to the game (have all the animals make animal sounds randomly? Make the dog bark when you get close to it?)
+- Add behavior to incorrect animals when clicked (make a sound, wiggle, do something else?)
+- Add a hint system to that the dog wiggles a bit if the player is taking too long to find it
+- Add selectable difficulty levels (more animals? smaller? movement?)
+- Add a countdown timer
+- Add multiple levels
+- Choose which animal is being found randomly and tell the player which one they're looking for
 
 Some of these are very straightforward and some are not. Choose wisely such that you get some good programming practice and challenge yourself, but not so that you stress out!
 
@@ -51,8 +54,8 @@ Submission will take place on **Moodle**. Go to the appropriately named **exerci
 
 Your submission should just be plain text that includes (substituting your GitHub username and any difference in the folder names):
 
-1. A link to your exercise code (e.g. https://github.com/pippinbarr/cart263/tree/master/exercises/wheres-sausage-dog-new-game-plus/)
-2. A link to your project on the web (e.g. https://pippinbarr.github.io/cart263/exercises/wheres-sausage-dog-new-game-plus/)
+1. A link to your exercise code (e.g. <https://github.com/pippinbarr/cart263/tree/master/exercises/wheres-sausage-dog-new-game-plus/>)
+2. A link to your project on the web (e.g. <https://pippinbarr.github.io/cart263/exercises/wheres-sausage-dog-new-game-plus/>)
 
 ## Evaluation
 
