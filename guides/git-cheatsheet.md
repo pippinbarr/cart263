@@ -109,7 +109,7 @@ You can't really do this on GitHub Desktop.
 
 #### VS Code
 
-In the History listed at the bottom right, click the "Undo" button next to the commit.
+VS Code doesn't show your commit history by default, so it's not so useful for undoing commits by default. You can make further changes and choose `Commit (amend)` from the dropdown arrow on the `Commit` button to include the new changes in your previous commit.
 
 #### Command line
 
@@ -125,9 +125,9 @@ When you've pushed a commit, you can no longer just undo it and pretend it didn'
 
 Right click the commit you want to revert in the History pane and select `Revert this Commit`. Note how it makes a __new__ commit called `Revert` followed by the commit message of the change you're undoing. This commit still has to be pushed at some point.
 
-#### Atom
+#### VS Code
 
-You can't do this in Atom without a special extra package.
+You can't do this in VS Code without special extra magical extensions as far as I know.
 
 #### Command line
 

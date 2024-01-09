@@ -92,7 +92,7 @@ Week of 22 January 2024
 
 ### Before class
 
-- Work with the [JavaScript Review learning materials](../topics/voices/)
+- Work with the [JavaScript Review learning materials](../topics/javascript/)
 
 ### Classroom
 
