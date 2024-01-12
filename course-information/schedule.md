@@ -62,8 +62,8 @@ Week of 15 January 2024
 ### Classroom
 
 - Welcome
-- Reviewing the [Course Outline](./outline.md)
 - Introductions (don't forget your pronouns!)
+- Reviewing the [Course Outline](./outline.md)
 - Reviewing the [Course Schedule](./schedule.md)
 - Software setup? Any problems?
 - Office hours
@@ -132,7 +132,7 @@ Click through for examples of the topics covered in this section
 
 - Q&A / Live coding
 - Next week: [Voices 2](#voices-2)
-- Next week: [Speech Jam](../projects/speech-jam/) is due
+- Next week: [Voices Jam](../projects/voices-jam/) is due
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ## Studio
@@ -158,7 +158,7 @@ Week of 5 February 2024
 ### Classroom
 
 - Q&A / Live coding
-- Tonight: [Speech Jam](../projects/speech-jam/) is due!
+- Tonight: [Voices Jam](../projects/voices-jam/) is due!
 - Next week: [AI 1](#ai-1)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
