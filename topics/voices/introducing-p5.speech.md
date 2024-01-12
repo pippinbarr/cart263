@@ -118,7 +118,7 @@ We've familiarized ourselves with the p5.speech library a bit, we have a sense o
 
 It's time to jump in try it out! This will include just getting the library up and running at all, and make sure we can get the most basic code working to try it out.
 
-So let's move on and actually [get the library](./p5.speech-get-the-library.md).
+So let's move on and actually [get the library](./p5.speech-getting-the-library.md).
 
 ---
 
