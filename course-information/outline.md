@@ -10,12 +10,7 @@ Section B: Thursdays, 13:15 – 17:15
 
 ## Where?
 
-Classroom / Discord / Email
-
-### Classrooms
-
-Section A: EV 5.635  
-Section B: ...
+Classroom (check your Schedule) / Discord / Email
 
 ## Who?
 
@@ -121,12 +116,13 @@ Students will create their own repository on GitHub to save, track, and present 
 
 Specific evaluation requirements will be provided when assigned.
 
+* Short "preflective" essay (5%)
 * Voice Jam (12%)
 * AI Jam (12%)
 * Game Engine Jam (12%)
-* Final Project (40%)
+* Final Project (35%)
   * Proposal and prototype (5%)
-  * Final project (35%)
+  * Final project (30%)
 * Short reflective essay (12%)
 * Participation (12%)
   * Participation includes: attending class, completing coursework, being present on the Discord, asking questions, contributing to discussions, sharing ideas, and coming to office hours, emailing the instructor with updates on projects (even if you do not need help, make sure to touch base with the instructor regularly in some capacity)

@@ -16,7 +16,7 @@ It lets us make our computer *talk to us* and *listen to what we say*! That soun
 - Go to the website
 - Look at examples
 - Read the documentation
-- Gather your first impressions
+- Think about it!
 - What next?
 
 ---
@@ -28,6 +28,7 @@ Whenever we want to use a library or a framework or some other add-on code to ou
 1. Go to the website for an overview
 2. Look at any examples provided
 3. Read or at least scan the documentation
+4. Think about it!
 
 ---
 
@@ -96,7 +97,7 @@ While you're reading, consider remembering or even writing down things that look
 
 ---
 
-## Gather your first impressions
+## Think about it
 
 Take a couple of minutes to expand on your notes about the library. Note down key functions and properties that seem interesting. Allow yourself to think about a bigger picture of what you might want to do with the abilities the library gives you.
 
