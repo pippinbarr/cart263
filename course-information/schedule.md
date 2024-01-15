@@ -67,6 +67,7 @@ Week of 15 January 2024
 - Reviewing the [Course Schedule](./schedule.md)
 - Software setup? Any problems?
 - Office hours
+- Next week: [Preflective Essay](../projects/preflective-essay/) is due (or the week after)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
   - Homepage: [https://clab.concordia.ca/](https://clab.concordia.ca/)
   - Email: [computation.lab@concordia.ca](mailto:computation.lab@concordia.ca)
@@ -98,6 +99,7 @@ Week of 22 January 2024
 
 - Q&A / Live coding
 - Next week: [Voices 1](#voices-1)
+- Next week: [Preflective Essay](../projects/preflective-essay/) is due (final deadlien)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ## Studio
@@ -372,6 +374,7 @@ Week of 8 April 2024
 ### Classroom
 
 - Q&A
+- Don't forget your [Reflective Essay](../projects/reflective-essay/)
 
 ### Studio
 
