@@ -23,8 +23,8 @@ If you're not a huge fan of writing, consider simply writing the essay equally d
 
 ## Submission
 
-Save your essay as a PDF and include it in your course respository in a subfolder named `preflective-essay` or something similarly clear. Post a link to the file on the Moodle page for this assignment.
+Save your essay as a PDF and include it in your course respository in a subfolder named `preflective-essay` or something similarly clear. Submit either the file itself or a link to the file on the Moodle page for this assignment.
 
-## Grading
+## Evaluation criteria
 
 See the grading rubric associated with this assignment on the Moodle.
