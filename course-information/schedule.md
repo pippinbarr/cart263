@@ -99,7 +99,7 @@ Week of 22 January 2024
 
 - Q&A / Live coding
 - Next week: [Voices 1](#voices-1)
-- Next week: [Preflective Essay](../projects/preflective-essay/) is due (final deadlien)
+- Next week: [Preflective Essay](../projects/preflective-essay/) is due (final deadline)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ## Studio
