@@ -3,7 +3,7 @@
 ## Required material on Voices
 
 - **Watch** [Voices 1: Introducing p5.speech](https://youtu.be/) and **read** the [notes](./introducing-p5.speech.md)
-- **Watch** [Voices 2: Getting the library](https://youtu.be/) and **read** the [notes](./p5.speech-getting-thelibrary.md)
+- **Watch** [Voices 2: Getting the library](https://youtu.be/) and **read** the [notes](./p5.speech-getting-the-library.md)
 - **Watch** [Voices 3: Output experiments](https://youtu.be/) and **read** the [notes](./p5.speech-voice-output-experiments.md)
 - **Watch** [Voices 4: Input experiments](https://youtu.be/) and **read** the [notes](./p5.speech-voice-input-experiments.md)
 
