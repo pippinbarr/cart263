@@ -108,7 +108,7 @@ const animals = [
   "mule",
   "muskrat",
   "mustang",
-  "mynah bird",
+  "myna bird",
   "newt",
   "ocelot",
   "opossum",
@@ -249,12 +249,12 @@ function handleVoiceInput() {
   let guessedAnimal = `what??`;
   // Make sure there is a result
   if (speechRecognizer.resultValue) {
-    // Have to do our regular expression fun stuff
-    // That is, use a regular expression to make the text after
-    // "I think is is..."
-    let matches = speechRecognizer.resultString.toLowerCase().match(/i think it is (.*)/);
-    if (matches && matches.length > 1) {
-      guessedAnimal = matches[1];
+    // We're going to use split() to break what the user said into two parts
+    // The part *before* they say "I think it is" and the part *after* they say it
+    // The *after* part should be their guessed animal...
+    let parts = speechRecognizer.resultString.toLowerCase().split(`i think it is`);
+    if (parts.length > 1) {
+      guessedAnimal = parts[1];
     }
   }
   // Convert the guess to lowercase to match the answer format
