@@ -9,6 +9,16 @@ A guessing game in which the page pronounces the name of an animal
 backwards and the user has to figure out what it was and say the
 name forwards.
 
+Needs to be played with headphones to avoid the computer hearing itself.
+Is that a first world problem?
+
+Have to give answers in the form of: "I think is is X"
+
+Uses:
+
+p5.speech
+https://idmnyu.github.io/p5.js-speech/
+
 ******************/
 
 // An array of animal names from
@@ -157,6 +167,10 @@ let currentAnswer = `Click to begin.`;
 // The current animal name the user is trying to guess
 let currentAnimal = ``;
 
+// The speech synthesizer
+const speechSynthesizer = new p5.Speech();
+// The speech recognizer
+const speechRecognizer = new p5.SpeechRec();
 
 /**
 Create a canvas
@@ -166,16 +180,13 @@ Set text defaults
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  // Is annyang available?
-  if (annyang) {
-    // Create the guessing command
-    let commands = {
-      'I think it is *animal': guessAnimal
-    };
-    // Setup annyang and start
-    annyang.addCommands(commands);
-    annyang.start();
-  }
+  // Set up the recognizer
+  // Make it listen continuously. Not ideal but necessary.
+  speechRecognizer.continuous = true;
+  // Tell it the function to call on a result
+  speechRecognizer.onResult = handleVoiceInput;
+  // Start it
+  speechRecognizer.start();
 
   // Text defaults
   textSize(102);
@@ -208,11 +219,11 @@ function displayAnswer() {
 }
 
 /**
-Reverse the animal name and say it with ResponsiveVoice
+Reverse the animal name and say it with the synthesizer
 */
 function sayAnimalBackwards(animal) {
   let reverseAnimal = reverseString(animal);
-  responsiveVoice.speak(reverseAnimal);
+  speechSynthesizer.speak(reverseAnimal);
 }
 
 /**
@@ -230,13 +241,24 @@ function reverseString(string) {
 }
 
 /**
-Called by annyang when the user make a guess.
-animal parameter contains the guess as a string.
+Called by the recognizer when the user make a guess.
 Sets the answer text to the guess.
 */
-function guessAnimal(animal) {
+function handleVoiceInput() {
+  // Set a default that works if we don't get a useful input
+  let guessedAnimal = `what??`;
+  // Make sure there is a result
+  if (speechRecognizer.resultValue) {
+    // Have to do our regular expression fun stuff
+    // That is, use a regular expression to make the text after
+    // "I think is is..."
+    let matches = speechRecognizer.resultString.toLowerCase().match(/i think it is (.*)/);
+    if (matches && matches.length > 1) {
+      guessedAnimal = matches[1];
+    }
+  }
   // Convert the guess to lowercase to match the answer format
-  currentAnswer = animal.toLowerCase();
+  currentAnswer = guessedAnimal;
 }
 
 /**

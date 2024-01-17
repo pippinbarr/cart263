@@ -13,13 +13,13 @@ and its inevitable lag!
 Commands are:
 "Drive"
 "Stop"
-"(Turn) left"
-"(Turn) right"
+"Turn left"
+"Turn right"
 
 Uses:
 
-annyang
-https://www.talater.com/annyang/
+p5.speech
+https://idmnyu.github.io/p5.js-speech/
 
 
 ******************/
@@ -31,10 +31,12 @@ let car;
 const NUM_STARS = 10;
 let stars = [];
 
+// Our speech recognition object from p5.speech
+let speechRecognizer;
 
 /**
 Create a canvas, a car to drive, all the stars
-Setup annyang
+Setup speech
 */
 function setup() {
   createCanvas(500, 500);
@@ -43,7 +45,7 @@ function setup() {
   car = new Car(width / 2, height / 2);
 
   createStars();
-  setupAnnyang();
+  setupSpeech();
 
 }
 
@@ -64,33 +66,18 @@ function createStars() {
 }
 
 /**
-Setup annyang voice commands for driving the car
+Setup speech for driving the car
 */
-function setupAnnyang() {
-  // Make sure annyang is available
-  if (annyang) {
-    // Add driving commands that correspond to method on our car
-    let commands = {
-      'drive': function() {
-        car.drive();
-      },
-      'stop': function() {
-        car.stop();
-      },
-      '(turn) left': function() {
-        car.turnLeft();
-      },
-      '(turn) right': function() {
-        car.turnRight();
-      }
-    };
-
-    // Add our commands to annyang
-    annyang.addCommands(commands);
-
-    // Start listening
-    annyang.start();
-  }
+function setupSpeech() {
+  // Create the recognizer object
+  speechRecognizer = new p5.SpeechRec();
+  // Tell it the function to call when it hears something
+  speechRecognizer.onResult = handleVoiceInput;
+  // Tell it to keep recognizing speech over time (multiple commands)
+  // Remember all the ethical concerns in the documentation? Well, yeah.
+  speechRecognizer.continuous = true;
+  // Start it up
+  speechRecognizer.start();
 }
 
 
@@ -114,5 +101,27 @@ function draw() {
       // Remove the star at this position from the array
       stars.splice(i, 1);
     }
+  }
+}
+
+function handleVoiceInput() {
+  // Grab the command as spoken, convert to lower case for ease of checking 
+  let command = speechRecognizer.resultString.toLowerCase();
+  // Check the commands
+  switch (command) {
+    case "drive":
+      car.drive();
+      break;
+    case "stop":
+      car.stop();
+      break;
+    case "turn left":
+      car.turnLeft();
+      break;
+    case "turn right":
+      car.turnRight();
+      break;
+    default:
+    // Could consider some kind of default "I didn't understand you" thing here
   }
 }

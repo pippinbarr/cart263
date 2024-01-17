@@ -5,14 +5,14 @@
 Perfect pitch
 Pippin Barr
 
-A pretty horrible attempt at singing with ResponsiveVoice. Allows the user
+A pretty horrible attempt at singing with p5.speech. Allows the user
 to set the rate and pitch of the voice with the mouse while the computer
 "sings" Twinkle Twinkle Little Star.
 
 Uses:
 
-ResponsiveVoice
-https://responsivevoice.org/
+p5.speech
+https://idmnyu.github.io/p5.js-speech/
 
 ******************/
 
@@ -26,6 +26,8 @@ let currentWordIndex = 0;
 let currentWord = `Click to begin.`;
 // The current pitch of the voice
 let pitch = 1;
+// The speech synthesizer
+const speechSynthesizer = new p5.Speech();
 
 /**
 Creates a canvas
@@ -49,11 +51,11 @@ function draw() {
   pop();
 
   // Map the mouse position to the pitch the voice should use for the next word
-  pitch = map(mouseY, height, 0, 0.2, 2);
+  pitch = map(mouseY, height, 0, 0.1, 2);
 }
 
 /**
-Gets the current word to sing and uses responsive voice to say it at the current
+Gets the current word to sing and uses p5.speech to say it at the current
 pitch, then calls itself again after the voice finished.
 */
 function sing() {
@@ -61,10 +63,9 @@ function sing() {
   currentWord = lyricsArray[currentWordIndex];
   // Say the current word in a default voice at the current pitch
   // Call sing() again when the voice finishes
-  responsiveVoice.speak(currentWord, undefined, {
-    pitch: pitch,
-    onend: sing
-  });
+  speechSynthesizer.setPitch(pitch);
+  speechSynthesizer.onEnd = sing;
+  speechSynthesizer.speak(currentWord);
   // Go to the next word
   currentWordIndex++;
   // If it reaches the end of the lyrics, go back to the start

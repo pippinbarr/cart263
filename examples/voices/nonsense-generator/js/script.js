@@ -9,8 +9,8 @@ Generate an endless stream of made up language for the computer to speak.
 
 Uses:
 
-ResponsiveVoice
-https://responsivevoice.org/
+p5.speech
+https://idmnyu.github.io/p5.js-speech/
 
 *********/
 
@@ -23,11 +23,18 @@ const vowels = "aeiou".split('');
 // The nonsense being spoken (used initially to show "click to start")
 let nonsense = `Click to start the nonsense.`;
 
+// The speech synthesizer
+const speechSynthesizer = new p5.Speech();
+
 /**
 Creates a createCanvas
 */
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  // Set the voice
+  speechSynthesizer.setVoice("Google UK English Male");
+  // Tell the synthesizer to keep speaking nonsense whenever it finishes
+  speechSynthesizer.onEnd = sayNonsense;
 }
 
 /**
@@ -50,13 +57,11 @@ Generates and speaks a sentence-worth of nonsense, then starts the next
 function sayNonsense() {
   // Generate the nonsense sentence
   nonsense = generateSentence();
-  // Options with some randomness for variation, plus calling this function
-  // again once the speech has finished
-  responsiveVoice.speak(nonsense, "UK English Male", {
-    rate: random(1.3, 1.4),
-    pitch: random(0.8, 0.9),
-    onend: sayNonsense // Call the same function after ending speaking!
-  });
+  // Options with some randomness for variation
+  speechSynthesizer.setRate(random(1.3, 1.4));
+  speechSynthesizer.setPitch(random(0.8, 0.9));
+  // Say it
+  speechSynthesizer.speak(nonsense);
 }
 
 /**

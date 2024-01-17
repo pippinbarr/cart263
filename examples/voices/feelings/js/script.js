@@ -10,16 +10,30 @@ things when different p5 events are triggered.
 
 Uses:
 
-ResponsiveVoice
-https://responsivevoice.org/
+p5.speech
+https://idmnyu.github.io/p5.js-speech/
 
 ******************/
+
+// Our speech synthesis object
+let speechSynthesizer;
 
 /**
 Creates a canvas.
 */
 function setup() {
   createCanvas(windowWidth, windowHeight);
+
+  // Create our speech synthesizer
+  speechSynthesizer = new p5.Speech();
+  // Set its creepy British voice
+  speechSynthesizer.setVoice(`Google UK Male`);
+  // Set its creepy pitch
+  speechSynthesizer.setPitch(0.5);
+  // Set its creepy rate
+  speechSynthesizer.setRate(0.5);
+  // Tell it to interrupt itself
+  speechSynthesizer.interrupt = true;
 }
 
 
@@ -65,15 +79,9 @@ function windowResized() {
 }
 
 /**
-Uses responsive voice to say the provided speech parameter in a creepy voice.
+Uses the synthesizer to say the provided speech parameter in its creepy voice.
 */
 function say(speech) {
-  // Cancel any prior speech (to avoid way too much talking)
-  responsiveVoice.cancel();
-
   // Say the current speech in a low and slow and gross way
-  responsiveVoice.speak(speech, `UK English Male`, {
-    rate: 0.5,
-    pitch: 0.5
-  });
+  speechSynthesizer.speak(speech);
 }

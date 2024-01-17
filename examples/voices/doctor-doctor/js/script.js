@@ -13,11 +13,8 @@ No headphones.
 
 Uses:
 
-ResponsiveVoice
-https://responsivevoice.org/
-
-annyang
-https://www.talater.com/annyang/
+p5.speech
+https://idmnyu.github.io/p5.js-speech/
 
 Elizabot
 https://www.masswerk.at/elizabot/
@@ -25,18 +22,43 @@ https://www.masswerk.at/elizabot/
 ******************/
 
 // Keep track of which voice to speak in
-let doctor1Voice = "UK English Female";
-let doctor2Voice = "UK English Male";
+let doctor1Voice = "Google UK English Female";
+let doctor2Voice = "Google UK English Male";
 let currentVoice = doctor1Voice;
 // A variable to hold our Eliza bot
 let eliza;
+// What is currently being said
 let currentSpeech = ``;
+// Our speech synthesis object
+let speechSynthesizer;
+// Our speech recognition object
+let speechRecognizer;
 
 /**
 Create the canvas
 */
 function setup() {
   createCanvas(500, 500);
+
+  // Set up our speech stuff
+  setupSpeech();
+}
+
+/**
+Create our p5.speech objects and get them ready 
+*/
+function setupSpeech() {
+  // Create the speech synthesizer
+  speechSynthesizer = new p5.Speech();
+  // Create the speech recognizer
+  speechRecognizer = new p5.SpeechRec();
+  // Tell it to be continuous (sorry)
+  speechRecognizer.continuous = true;
+  // Tell it the function to call when it hears something
+  speechRecognizer.onResult = handleVoiceInput;
+  // Start it up
+  speechRecognizer.start();
+  // For debug to see the voices we can use
 }
 
 /**
@@ -55,38 +77,28 @@ function draw() {
 }
 
 /**
-Initialise elizabox and say her first line. Called on mouse click.
+Initialise elizabot and say her first line. Called on mouse click.
 */
 function start() {
-
-  // Initialise annyang with no commands (because we just want to listen to whatever it hears)
-  annyang.init({});
-  // Whenever something is heard, handle it as input to Eliza
-  annyang.addCallback('result', handleSpeech);
-  // Start the engine
-  annyang.start();
-
   // Create our eliza chatbot for processing the responses
   eliza = new ElizaBot();
-  // Get her starting comment and say it
+  // Get her starting comment
   let initial = eliza.getInitial();
-  responsiveVoice.speak(initial, currentVoice);
+  // Set the voice
+  speechSynthesizer.setVoice(currentVoice);
+  // Say it
+  speechSynthesizer.speak(initial);
 }
 
 /**
-Called when annyang detects speech, provides an array of possible
-interpretations in the speech argument
+Called when p5.speech detects speech
 */
-function handleSpeech(speech) {
-  // Get the first (best) interpretation of what was said from the speech array
-  // which contains multiple possible interpretations of the user's speech
-  let interpretation = speech[0];
-
+function handleVoiceInput() {
   // Add the interpretation to the string to display on the canvas
-  currentSpeech = `"${interpretation}"`;
+  currentSpeech = `"${speechRecognizer.resultString}"`;
 
   // Get Eliza's response to the first possible interpretation
-  let response = eliza.transform(interpretation);
+  let response = eliza.transform(speechRecognizer.resultString);
 
   // Swap the doctor's voice so it's more conversational
   if (currentVoice === doctor1Voice) {
@@ -95,8 +107,13 @@ function handleSpeech(speech) {
   else {
     currentVoice = doctor1Voice;
   }
-  // Say the response (which will be picked up by annyang through the computer speakers, hopefully)
-  responsiveVoice.speak(response, currentVoice);
+  // Set the voice
+  speechSynthesizer.setVoice(currentVoice);
+  // Add a delay so the recognizer has a chance to detect a pause
+  setTimeout(() => {
+    // Say the response (which will be picked up by the recognizer through the computer speakers, hopefully)
+    speechSynthesizer.speak(response);
+  }, 1000);
 }
 
 /**
@@ -104,4 +121,5 @@ Start the bots talking!
 */
 function mousePressed() {
   start();
+  speechSynthesizer.listVoices();
 }
