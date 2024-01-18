@@ -2,10 +2,10 @@
 
 ## Required material on Voices
 
-- **Watch** [Voices 1: Introducing p5.speech](https://youtu.be/) and **read** the [notes](./introducing-p5.speech.md)
-- **Watch** [Voices 2: Getting the library](https://youtu.be/) and **read** the [notes](./p5.speech-getting-the-library.md)
-- **Watch** [Voices 3: Output experiments](https://youtu.be/)
-- **Watch** [Voices 4: Input experiments](https://youtu.be/)
+- **Watch** [Voices 1: Introducing p5.speech](https://youtu.be/2PhnM-eiIro) and **read** the [notes](./introducing-p5.speech.md)
+- **Watch** [Voices 2: Getting the library](https://youtu.be/R4y1_o1KJyw) and **read** the [notes](./p5.speech-getting-the-library.md)
+- **Watch** [Voices 3: Output experiments](https://youtu.be/sFZI9GRo9yk)
+- **Watch** [Voices 4: Input experiments](https://youtu.be/2zvLdgEJJYQ)
 
 ## Other resources for p5.speech
 
@@ -14,7 +14,7 @@
 
 ## Activity
 
-- **Complete** [Activity: Slamina](../../activities/slamina) (**Watch** [Voices 5: Activity: Slamina](https://youtu.be/) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/voices/slamina/), [Online](https://pippinbarr.com/cart263/examples/voices/slamina/))
+- **Complete** [Activity: Slamina](../../activities/slamina) (**Watch** [Voices 5: Activity: Slamina](https://youtu.be/luNKmzNfwlE) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/voices/slamina/), [Online](https://pippinbarr.com/cart263/examples/voices/slamina/))
 
 ## Read the examples
 
