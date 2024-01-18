@@ -2,7 +2,7 @@
 
 ## Objectives
 
-* Using p5.speech both for voice output and voice input
+* Using p5.speech for voice output and voice input
 
 ---
 
@@ -67,14 +67,18 @@ Reverses the provided string
 */
 function reverseString(string) {
   // Split the string into an array of characters
-  let characters = string.split('');
+  let characters = string.split(``);
   // Reverse the array of characters
   let reverseCharacters = characters.reverse();
   // Join the array of characters back into a string
-  let result = reverseCharacters.join('');
+  let result = reverseCharacters.join(``);
   // Return the result
   return result;
 }
+
+// You could also combine all this into
+// return string.split(``).reverse().join(``);
+// But that's for sure more confusing to learn from
 ```
 
 Finally, we need to trigger p5.speech to say the reversed animal name...
@@ -135,15 +139,16 @@ Below the `mousePressed()` function:
   * Use the String `split` method to break a *lowercase version* of the user's command into two parts, the part *before* "i think it is" and the part *after* "i think it is", which should be the animal name. `split` will return an *array*, ideally with two elements (the before part and the after part). This is by no means easy, so here's what that would look like:
 
 ```javascript
-let parts = speechRecognizer.resultString.toLowerCase().split(`i think it is`);
+let lowerCaseResult = speechRecognizer.resultString.toLowerCase();
+let parts = lowerCaseResult.split(`i think it is`);
 ```
 
 * Still inside the if-statement:
   * Write an if-statement that checks if `parts` has a length greater than `1` (e.g. it managed to break the string into two parts, meaning if found "i think it is" inside the string).
   * Inside this new if-statement:
     * Assign `parts[1]` to `guessedAnimal` (that is, the part of the user's command *after* "I think it is", which is their answer)
-* Outside both if statements, assign `guessedAnimal` to `currentAnswer`
-* Use `console.log()` to print out `currentAnswer` so you can see what it is
+* Outside both if statements, at the end of the `handleSpeechInput()` function, assign `guessedAnimal` to `currentAnswer`
+* And add a `console.log()` to print out `currentAnswer` so you can see what it is
 
 Now if the user starts the program and clicks, they should be able to say "I think it is dog" (for example) and you should see "dog" in the console
 
