@@ -1,5 +1,7 @@
 # Voices learning materials
 
+Topic playlist: <https://www.youtube.com/playlist?list=PLlhzHWGvpvd3L-amtZXzZEkgWKdUWRzuB>
+
 ## Required material on Voices
 
 - **Watch** [Voices 1: Introducing p5.speech](https://youtu.be/2PhnM-eiIro) and **read** the [notes](./introducing-p5.speech.md)
