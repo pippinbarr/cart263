@@ -123,8 +123,14 @@ Week of 29 January 2024
 
 ### Before class
 
+#### Required
+
 - Work with the [Voices learning materials](../topics/voices/)
   - **NOTE**: You can spread this as you wish across this week and next week
+
+#### Optional (but *very* worthwhile)
+
+- **Watch** [Data 1: JSON](https://youtu.be/po6d5FY9jFI) and/or **read** the [notes](../topics/data/json.md).
 
 ### [Examples](../examples/#voices)
 

@@ -4,12 +4,8 @@
 
 - **Watch** [Voices 1: Introducing p5.speech](https://youtu.be/) and **read** the [notes](./introducing-p5.speech.md)
 - **Watch** [Voices 2: Getting the library](https://youtu.be/) and **read** the [notes](./p5.speech-getting-the-library.md)
-- **Watch** [Voices 3: Output experiments](https://youtu.be/) and **read** the [notes](./p5.speech-voice-output-experiments.md)
-- **Watch** [Voices 4: Input experiments](https://youtu.be/) and **read** the [notes](./p5.speech-voice-input-experiments.md)
-
-## Optional material on AI
-
-- - **Watch** [Voices 3: Combination experiments](https://youtu.be/) and **read** the [notes](./p5.speech-voice-combination-experiments.md)
+- **Watch** [Voices 3: Output experiments](https://youtu.be/)
+- **Watch** [Voices 4: Input experiments](https://youtu.be/)
 
 ## Other resources for p5.speech
 
@@ -20,6 +16,11 @@
 
 - **Complete** [Activity: xxx](../../activities/xxx) (**Watch** [Voices 5: Activity: xxx](https://youtu.be/zx0pNnoHp4Y) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/voices/xxx/), [Online](https://pippinbarr.com/cart263/examples/voices/xxx/))
 
-## [Examples](../../examples/#voices)
+## Read the examples
 
-Click through for examples of the topics covered in this section
+1. [Read through the examples](../../examples/#voices) of the topics covered in this section to get a better sense of some possibilities.
+2. **Request examples you'd like to see.**
+
+## Start thinking
+
+1. Start thinking about what you'd like to do for the [Voices Jam](../../projects/voices-jam/)
