@@ -19,6 +19,7 @@ The program will speak the name of a common animal backwards and the user will h
 3. Move the folder into the `activities` folder in your repository folder (create it if necessary)
 4. Commit the changes to your repository with a commit message
 5. Open the project folder in VS Code to start work
+6. (Post-video) Change the title in `index.html` to Slamina!
 
 ---
 
@@ -105,33 +106,39 @@ Now when the program starts, if the user clicks, they will hear the name of a ra
 
 We want p5.speech to listen to the user and hear when they make a guess. To do this we need to be able to listen to a guessing command like "I think it is..." and then capture what the actual guess is. This is kind of non-trivial, but we'll get into it. In order to give some feedback, we'll display the guess in the console.
 
+---
+
 First we want to set up the recognizer...
 
-At the top of the program:
+### At the top of the program
 
-1. Add a speech recognizer object
+#### 1. Add a speech recognizer object
 
 * Declare a `const` called `speechRecognizer` at the top of the program and assign it a p5.speech recognizer object
 
-In `setup()`:
+### In `setup()`
 
-1. Set up the new recognizer object
+#### 1. Set up the new recognizer object
 
 * First set it to work *continuously* by setting its `continuous` property to true
 * Then set the function it will call on results to `handleSpeechInput` (we'll write that function in a moment)
 * Then start the recognizer working with its `start()` method
 
-2. Set up some default text styling (perhaps a large text size, bold, and centering)
+#### 2. Set up some default text styling (perhaps a large text size, bold, and centering)
+
+---
 
 Now we need to handle guessing...
 
-At the top of the program:
+### At the top of the program
 
-1. We need somewhere to store the user's guess, so declare a variable called `currentAnswer` containing an empty string (they haven't guessed yet!)
+#### 1. We need somewhere to store the user's guess, so declare a variable called `currentAnswer` containing an empty string (they haven't guessed yet!)
 
-Below the `mousePressed()` function:
+### Below the `mousePressed()` function
 
-1. Define the function called `handleSpeechInput()`. In it we need to *extract* the animal name the user hopefully said so we can store it in `currentAnimal`. This bit is kind of intense, so a bit more hand holding here:
+#### 1. Define the function called `handleSpeechInput()`
+
+In it we need to *extract* the animal name the user hopefully said so we can store it in `currentAnimal`. This bit is kind of intense, so a bit more hand holding here
 
 * Declare a variable called `guessedAnimal` and give it a default value that will make sense if the user sees it after the program didn't understand them for some reason, something like... `"what??"`
 * Write an if-statement that checks that `speechRecognizer.resultValue` is true (this will help us avoid situations where the recognizer didn't really hear something well).
@@ -140,11 +147,13 @@ Below the `mousePressed()` function:
 
 ```javascript
 let lowerCaseResult = speechRecognizer.resultString.toLowerCase();
-let parts = lowerCaseResult.split(`i think it is`);
+let parts = lowerCaseResult.split(`i think it is `);
 ```
 
+(Post-video) **Notice the *space* after "i think it is" here. That's really important because we want the part *after* that to be the start of the actual answer. So we have to "eat" the space by including it in the split.**
+
 * Still inside the if-statement:
-  * Write an if-statement that checks if `parts` has a length greater than `1` (e.g. it managed to break the string into two parts, meaning if found "i think it is" inside the string).
+  * Write an if-statement that checks if `parts` has a length greater than `1` (e.g. it managed to break the string into two parts, meaning it found "i think it is " inside the string).
   * Inside this new if-statement:
     * Assign `parts[1]` to `guessedAnimal` (that is, the part of the user's command *after* "I think it is", which is their answer)
 * Outside both if statements, at the end of the `handleSpeechInput()` function, assign `guessedAnimal` to `currentAnswer`
@@ -158,14 +167,14 @@ Now if the user starts the program and clicks, they should be able to say "I thi
 
 Finally, we want to display the user's guess to the user themselves so they can understand whether they were right or wrong!
 
-In `draw()`:
+### In `setup()`
+
+1. (Post-video) **Create a canvas of dimensions that you like**
+
+### In `draw()`
 
 1. Set a background color
-2. Write an `if` statement that checks if the current answer is correct (does it equal the current animal?)
-
-* If it does, set the fill (for the text) to green
-* It it doesn't, set the fill (for the text) to red
-
+2. Write an `if` statement that checks if the current answer is correct (does it equal the current animal?). If it does, set the fill (for the text) to green. If it doesn't, set the fill (for the text) to red
 3. Display the `currentAnswer` variable as text on the canvas
 
 Now if the user starts the program and clicks, they should be able to say "I think it is dog" (for example) and see the word "dog" appear on the canvas in green (if it's right) or red (if it's wrong). Hey presto! Our guessing game is complete!
