@@ -14,7 +14,7 @@
 
 ## Activity
 
-- **Complete** [Activity: xxx](../../activities/xxx) (**Watch** [Voices 5: Activity: xxx](https://youtu.be/zx0pNnoHp4Y) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/voices/xxx/), [Online](https://pippinbarr.com/cart263/examples/voices/xxx/))
+- **Complete** [Activity: Slamina](../../activities/slamina) (**Watch** [Voices 5: Activity: Slamina](https://youtu.be/) video to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/voices/slamina/), [Online](https://pippinbarr.com/cart263/examples/voices/slamina/))
 
 ## Read the examples
 
