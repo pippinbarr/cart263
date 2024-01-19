@@ -252,7 +252,7 @@ function handleVoiceInput() {
     // We're going to use split() to break what the user said into two parts
     // The part *before* they say "I think it is" and the part *after* they say it
     // The *after* part should be their guessed animal...
-    let parts = speechRecognizer.resultString.toLowerCase().split(`i think it is`);
+    let parts = speechRecognizer.resultString.toLowerCase().split(`i think it is `);
     if (parts.length > 1) {
       guessedAnimal = parts[1];
     }
