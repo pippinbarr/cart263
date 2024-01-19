@@ -35,6 +35,18 @@ A basic tile-based world implementation in p5.js.
 
 Example programs using voice synthesis and voice recognition with [p5.speech](https://idmnyu.github.io/p5.js-speech/).
 
+### Voice output experiments testbed
+
+Sample code for playing around with the possibilities of voice output
+
+* [Voice output testbed](https://pippinbarr.github.io/cart263/examples/voices/voice-output-experiments-testbed/) ([Source](https://www.github.com/pippinbarr/cart263/tree/master/examples/voices/voice-output-experiments-testbed/))
+
+### Voice input experiments testbed
+
+Sample code for playing around with the possibilities of voice output
+
+* [Voice input testbed](https://pippinbarr.github.io/cart263/examples/voices/voice-input-experiments-testbed/) ([Source](https://www.github.com/pippinbarr/cart263/tree/master/examples/voices/voice-input-experiments-testbed/))
+
 ### Slamina
 
 Guess animal names pronounced backwards! With your voice!
