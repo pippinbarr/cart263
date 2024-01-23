@@ -4,6 +4,8 @@ Topic playlist: <https://www.youtube.com/playlist?list=PLlhzHWGvpvd3L-amtZXzZEkg
 
 ## Required material on Voices
 
+**All videos are also available without ads via YuJa on the course Moodle for Section A** (trying to figure it out for Section B)
+
 - **Watch** [Voices 1: Introducing p5.speech](https://youtu.be/2PhnM-eiIro) and **read** the [notes](./introducing-p5.speech.md)
 - **Watch** [Voices 2: Getting the library](https://youtu.be/R4y1_o1KJyw) and **read** the [notes](./p5.speech-getting-the-library.md)
 - **Watch** [Voices 3: Output experiments](https://youtu.be/sFZI9GRo9yk)
