@@ -1,16 +1,20 @@
 # The Webpage learning materials
 
-**Consider looking at the optional material below on HTML and CSS if you aren't confident with those foundational aspects of how a webpage is made.**
+**All videos are also available without ads via YuJa on the course Moodle for Section A** (trying to figure it out for Section B)
+
+Topic playlist on YouTube: <https://www.youtube.com/watch?v=9Di3KTMWI3g&list=PLlhzHWGvpvd1nna8eEm1egC3Tq9mf>
 
 ## Optional Webpage material
 
+**Consider looking at this if you aren't confident with HTML and CSS.**
+
 ### HTML
 
-- (Optional) **Watch** [6.1. HTML Overview](https://youtu.be/9Di3KTMWI3g) and **read** the [notes](../topics/the-webpage/html-overview.md)
+- (Optional) **Watch** [The Webpage 1: HTML Overview](https://youtu.be/9Di3KTMWI3g) and **read** the [notes](../topics/the-webpage/html-overview.md)
 
 ### CSS
 
-- (Optional) **Watch** [6.2. CSS Overview](https://youtu.be/849hVdZQVsQ) and **read** the [notes](../topics/the-webpage/css-overview.md)
+- (Optional) **Watch** [The Webpage 2: CSS Overview](https://youtu.be/849hVdZQVsQ) and **read** the [notes](../topics/the-webpage/css-overview.md)
 
 ## Required Webpage material
 
@@ -18,13 +22,13 @@
 
 ### The DOM (Document Object Model)
 
-- **Watch** [6.3. DOM Overview](https://youtu.be/zajq8JthHyw) and **read** the [notes](../topics/the-webpage/dom-overview.md)
-- **Watch** [6.4. DOM Events](https://youtu.be/jPCzpDOg8Ts) and **read** the [notes](../topics/the-webpage/dom-events.md)
-- **Watch** [6.5. DOM Form Input](https://youtu.be/JmdN-mvMaLI) and **read** the [notes](../topics/the-webpage/dom-form-input.md)
+- **Watch** [The Webpage 3: DOM Overview](https://youtu.be/zajq8JthHyw) and **read** the [notes](../topics/the-webpage/dom-overview.md)
+- **Watch** [The Webpage 4: DOM Events](https://youtu.be/jPCzpDOg8Ts) and **read** the [notes](../topics/the-webpage/dom-events.md)
+- **Watch** [The Webpage 5: DOM Form Input](https://youtu.be/JmdN-mvMaLI) and **read** the [notes](../topics/the-webpage/dom-form-input.md)
 
 ## Activity
 
-- **Complete** [Activity: Haiku Generator](../../activities/haiku-generator.md) (**Watch** [6.6. Activity: Haiku Generator](https://youtu.be/AiuTJMhJhKA) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/the-webpage/haiku-generator/), [Online](https://pippinbarr.com/cart263/examples/the-webpage/haiku-generator/))
+- **Complete** [Activity: Haiku Generator](../../activities/haiku-generator.md) (**Watch** [The Webpage 6: Activity: Haiku Generator](https://youtu.be/AiuTJMhJhKA) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/the-webpage/haiku-generator/), [Online](https://pippinbarr.com/cart263/examples/the-webpage/haiku-generator/))
 
 ## [Examples](../../examples/#the-webpage)
 
