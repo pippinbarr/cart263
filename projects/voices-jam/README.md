@@ -35,6 +35,7 @@ Feel free to create a repository only for this project, or to work in a subfolde
 
 * [*Blade Runner*: "Enhance"](https://www.youtube.com/watch?v=hHwjceFcF2Q)
 * [*2001: A Space Odyssey*: "I'm sorry, Dave"](https://www.youtube.com/watch?v=Mme2Aya_6Bc)
+* [*Lost Highway*: "I'm there right now"](https://www.youtube.com/watch?v=K_MOEMGcdn4)
 * [*ENHANCE.COMPUTER* by Nicole He](https://www.enhance.computer/)
 * [Phoenix Wright Ace Attorney's "Objection!"](https://www.youtube.com/watch?v=Jn1qtUM6iCU) (You used to be able to shout "Objection!" on the Nintendo DS to raise an objection in court)
 * ... feel free to suggest more to the instructor to add them here.
