@@ -25,7 +25,9 @@ Make sure to explore a well-defined *idea* in your prototype. It could be funny,
 
 When coming up with your idea(s), *start with the possibilities present in p5.speech and go from there*. Try not to imagine a fantasy project and then to figure out how to make it. Start with the technical reality and turn it into something interesting.
 
-## Repository
+Please follow the [Style Guide](../../guides/style-guide.md).
+
+## Technical details
 
 Feel free to create a repository only for this project, or to work in a subfolder of your `cart263` repository. A dedicated repository is more in line with real life developers, but either is fine.
 
