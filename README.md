@@ -32,6 +32,8 @@ Office hours tbd.
 
 ## [Code Examples](https://pippinbarr.github.io/cart263/examples/)
 
+## [Code Inspirations](inspirations/)
+
 ## [Guides](https://pippinbarr.github.io/cart263/guides/)
 
 ## [Videos (YouTube)](https://www.youtube.com/channel/UCgMMSLb6Zywjhk9JW6I00Aw/playlists?view=50&sort=dd&shelf_id=2)

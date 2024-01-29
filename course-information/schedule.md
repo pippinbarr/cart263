@@ -1,4 +1,4 @@
-#### [Home](../) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
+#### [Home](../) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | | [Inspiration](../inspiration) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
 
 # Schedule
 
@@ -138,7 +138,9 @@ Click through for examples of the topics covered in this section
 
 ### Classroom
 
+- [Inspiration](../inspiration/) (let's add to this)
 - Q&A / Live coding
+- Tonight: [Preflective Essay](../projects/preflective-essay/) is due (final deadline)
 - Next week: [Voices 2](#voices-2)
 - Next week: [Voices Jam](../projects/voices-jam/) is due
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
