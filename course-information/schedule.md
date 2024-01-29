@@ -1,4 +1,4 @@
-#### [Home](../) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | | [Inspiration](../inspiration) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
+#### [Home](../) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | [Inspiration](../inspiration) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
 
 # Schedule
 

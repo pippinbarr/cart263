@@ -1,4 +1,4 @@
-#### [Home](../README.md) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
+#### [Home](../) | [Schedule](schedule.md) | [Course Outline](outline.md) | [Examples](../examples) | [Inspiration](../inspiration) | [Guides](../guides/) | [Repository](https://www.github.com/pippinbarr/cart263)
 
 # CART 263: Creative Computation II – Winter 2024 – 3 credits
 
