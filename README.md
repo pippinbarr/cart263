@@ -32,7 +32,7 @@ Office hours tbd.
 
 ## [Code Examples](https://pippinbarr.github.io/cart263/examples/)
 
-## [Code Inspirations](inspirations/)
+## [Code Inspiration](inspiration/)
 
 ## [Guides](https://pippinbarr.github.io/cart263/guides/)
 
