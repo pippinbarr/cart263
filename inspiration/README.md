@@ -13,3 +13,4 @@ Here is a place for us to collecting examples of code that may be inspiring to o
 - Steve's Coding Fun YouTube playlist: <https://www.youtube.com/playlist?list=PLnJOmsprq3bErSNvxK0OV-Adh1uxRhVdo>
 - The Coding Train's challenges: <https://thecodingtrain.com/challenges>
 - The Coding Train's collection on the p5 website: <https://editor.p5js.org/codingtrain/sketches>
+- Shelby Wilson: <https://shelby.cool/>
