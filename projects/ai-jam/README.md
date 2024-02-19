@@ -6,8 +6,8 @@ Worth 12% of final grade.
 
 ## Deadlines
 
-* Section A (Tuesdays): 20 February 2024
-* Section B (Thursdays): 22 February 2024
+* Section A (Tuesdays): 25 February 2024
+* Section B (Thursdays): 27 February 2024
 
 If there is a serious need for an extension, contact your instructor at least 3 days *before* the deadline.
 
