@@ -199,7 +199,7 @@ Week of 12 February 2024
 
 - Q&A / Live coding
 - Next week: [AI 2](#ai-2)
-- Next week: [AI Jam](../projects/ai-jam/) is due
+- Next week: Last studio before [AI Jam](../projects/ai-jam/) is due
 - Speech Jam Demos!
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -222,9 +222,10 @@ Week of 19 February 2024
 ### Classroom
 
 - Q&A / Live coding
-- Tonight: [AI Jam](../projects/ai-jam/) is due tonight!
+- This is the last studio before [AI Jam](../projects/ai-jam/) is due!
 - Next week: Reading week!
 - The week after: [Game Engine 1](#game-engine-1)
+- Game Engine Jam brief will be ready by end of this week
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ### Studio
@@ -261,7 +262,7 @@ Week of 4 March 2024
 
 - Q&A / Live coding
 - Next week: [Game Engine 2](#game-engine-2)
-- Next week: [Game Engine Jam](../projects/game-engine-jam/) is due!
+- Next week: Last studio before [Game Engine Jam](../projects/game-engine-jam/) is due
 - AI Jam Demos!
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
@@ -292,7 +293,7 @@ Click through for examples of the topics covered in this section
 ### Classroom
 
 - Q&A / Live coding
-- Tonight: [Game Engine Jam](../projects/game-engine-jam/) is due!
+- Today: Last studio before [Game Engine Jam](../projects/game-engine-jam/) is due!
 - Next week: [The Webpage](#the-webpage)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
