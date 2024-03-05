@@ -383,6 +383,20 @@ Help "The Prisoner" escape from their "Prison" using an "Escape Tunnel" or the p
 
 ## Game Engine
 
+### Buried Alive
+
+A game where you're trying to go up against falling debris (or whatever it is),
+trying to evoke the sense of fighting against the current/wind/something.
+
+* [Buried Alive](https://pippinbarr.github.io/cart263/examples/game-engine/buried-alive) ([Source](https://www.github.com/pippinbarr/cart263/tree/master/examples/game-engine/buried-alive))
+
+### Dead Zone
+
+A game where you're trying to escape the view of the game camera (which I guess is a
+bit like CCTV surveillance) so that you can graffiti the world with your message.
+
+* [Dead Zone](https://pippinbarr.github.io/cart263/examples/game-engine/dead-zone) ([Source](https://www.github.com/pippinbarr/cart263/tree/master/examples/game-engine/dead-zone))
+
 ### Desperately Seeking Sadness
 
 The activity game in which you fly a neutral face emoji around a sea of thumbs ups seeking out the solitary thumbs down so you can collect it and feel bad about yourself. Over and over again!
