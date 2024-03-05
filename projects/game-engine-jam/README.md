@@ -31,6 +31,12 @@ Please follow the [Style Guide](../../guides/style-guide.md).
 
 Feel free to create a repository only for this project, or to work in a subfolder of your `cart263` repository. A dedicated repository is more in line with real life developers, but either is fine.
 
+## Examples
+
+* [CART263 Game Engine Examples](../../examples/#game-engine)
+* [Phaser 3 Examples](https://labs.phaser.io/)
+* [Phaser 3 Tutorials](https://phaser.io/news/category/tutorial)
+
 ## Inspiration
 
 * *[VVVVVV](https://thelettervsixtim.es/)*. A platformer where you can't jump. [As a speedrun experience](https://www.youtube.com/watch?v=OOr8NKvp_As)? [As a permadeath speedrun experience](https://www.youtube.com/watch?v=HS1V3EIeEBk)?
