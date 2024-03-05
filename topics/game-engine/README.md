@@ -21,7 +21,7 @@ Topic playlist on YouTube: <https://www.youtube.com/watch?v=e0aNwUzvoAQ&list=PLl
 
 ## Activity
 
-- **Complete** [Activity: Desperately Seeking Sadness](../activities/desperately-seeking-sadness.md) (**Watch** [Game Engine 6: Activity: Desperately Seeking Sadness](https://youtu.be/AJaFQcQuXrw) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/game-engine/desperately-seeking-sadness/), [Online](https://pippinbarr.com/cart263/examples/game-engine/desperately-seeking-sadness/))
+- **Complete** [Activity: Desperately Seeking Sadness](../../activities/desperately-seeking-sadness.md) (**Watch** [Game Engine 6: Activity: Desperately Seeking Sadness](https://youtu.be/AJaFQcQuXrw) to see Pippin doing it) ([Example final code](https://github.com/pippinbarr/cart263/tree/main/examples/game-engine/desperately-seeking-sadness/), [Online](https://pippinbarr.com/cart263/examples/game-engine/desperately-seeking-sadness/))
 
 ## [Examples](../../examples/#game-engine)
 
