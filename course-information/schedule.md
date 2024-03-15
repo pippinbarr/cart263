@@ -322,10 +322,11 @@ Week of 18 March 2024
 
 ### Classroom
 
-- Q&A / Live coding
+### Studio
+
 - From now on: The [Final Project](../projects/final-project/) is out main concern
-- Next week: [Final Project Prototype and Proposal](../projects/final-project/) is due!
-- Game Engine Jam Demos!
+- [Final Project Prototype and Proposal](../projects/final-project/) is due over the next couple of weeks.
+- Remember to begin work on the [Reflective Essay](../projects/reflective-essay/)
 - The [C-LAB](https://clab.concordia.ca/) is there to help you
 
 ### Studio
@@ -346,11 +347,14 @@ Week of 25 March 2024
 ### Classroom
 
 - Q&A
-- Tonight: [Final Project Prototype and Proposal](../projects/final-project/) is due!
+- From now on: The [Final Project](../projects/final-project/) is out main concern
+- Remember to begin work on the [Reflective Essay](../projects/reflective-essay/)
+- Remember: [Final Project Prototype and Proposal](../projects/final-project/) is due soon!
 
 ### Studio
 
 - Working on the [Final Project](../projects/final-project/)
+- Don't forget your [Reflective Essay](../projects/reflective-essay/)
 
 ---
 
@@ -369,6 +373,7 @@ Week of 1 April 2024
 ### Studio
 
 - Working on the [Final Project](../projects/final-project/)
+- Don't forget your [Reflective Essay](../projects/reflective-essay/)
 
 ---
 
@@ -383,10 +388,10 @@ Week of 8 April 2024
 ### Classroom
 
 - Q&A
-- Don't forget your [Reflective Essay](../projects/reflective-essay/)
 
 ### Studio
 
 - Working on the [Final Project](../projects/final-project/)
+- Don't forget your [Reflective Essay](../projects/reflective-essay/)
 
 ---
