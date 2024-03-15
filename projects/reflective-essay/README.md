@@ -1,4 +1,4 @@
-# "Reflective" Essay
+# Reflective Essay
 
 ## Grade
 
