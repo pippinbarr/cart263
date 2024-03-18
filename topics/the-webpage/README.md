@@ -10,11 +10,11 @@ Topic playlist on YouTube: <https://www.youtube.com/watch?v=9Di3KTMWI3g&list=PLl
 
 ### HTML
 
-- (Optional) **Watch** [The Webpage 1: HTML Overview](https://youtu.be/9Di3KTMWI3g) and **read** the [notes](../topics/the-webpage/html-overview.md)
+- (Optional) **Watch** [The Webpage 1: HTML Overview](https://youtu.be/9Di3KTMWI3g) and **read** the [notes](../the-webpage/html-overview.md)
 
 ### CSS
 
-- (Optional) **Watch** [The Webpage 2: CSS Overview](https://youtu.be/849hVdZQVsQ) and **read** the [notes](../topics/the-webpage/css-overview.md)
+- (Optional) **Watch** [The Webpage 2: CSS Overview](https://youtu.be/849hVdZQVsQ) and **read** the [notes](../the-webpage/css-overview.md)
 
 ## Required Webpage material
 
@@ -22,9 +22,9 @@ Topic playlist on YouTube: <https://www.youtube.com/watch?v=9Di3KTMWI3g&list=PLl
 
 ### The DOM (Document Object Model)
 
-- **Watch** [The Webpage 3: DOM Overview](https://youtu.be/zajq8JthHyw) and **read** the [notes](../topics/the-webpage/dom-overview.md)
-- **Watch** [The Webpage 4: DOM Events](https://youtu.be/jPCzpDOg8Ts) and **read** the [notes](../topics/the-webpage/dom-events.md)
-- **Watch** [The Webpage 5: DOM Form Input](https://youtu.be/JmdN-mvMaLI) and **read** the [notes](../topics/the-webpage/dom-form-input.md)
+- **Watch** [The Webpage 3: DOM Overview](https://youtu.be/zajq8JthHyw) and **read** the [notes](../the-webpage/dom-overview.md)
+- **Watch** [The Webpage 4: DOM Events](https://youtu.be/jPCzpDOg8Ts) and **read** the [notes](../the-webpage/dom-events.md)
+- **Watch** [The Webpage 5: DOM Form Input](https://youtu.be/JmdN-mvMaLI) and **read** the [notes](../the-webpage/dom-form-input.md)
 
 ## Activity
 
